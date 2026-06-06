@@ -9,6 +9,8 @@ Herramienta web de apoyo profesional para bioquímicos y profesionales de labora
 
 ## Demo rápido
 
+https://christianmadriaga3-ui.github.io/bioqcalc/bioquimica_clinica_v1_8.html
+
 Descargá o cloná el repositorio y abrí `bioquimica_clinica_v1_8.html` en cualquier navegador moderno. No requiere instalación ni conexión a internet.
 
 ```bash
