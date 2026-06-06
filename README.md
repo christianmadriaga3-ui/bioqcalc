@@ -15,7 +15,7 @@ https://christianmadriaga3-ui.github.io/bioqcalc/bioquimica_clinica_v1_8.html
 Descargá o cloná el repositorio y abrí `bioquimica_clinica_v1_8.html` en cualquier navegador moderno. No requiere instalación ni conexión a internet.
 
 ```bash
-git clone https://github.com/tu-usuario/bioquimica-clinica.git
+git clone https://github.com/christianmadriaga3-ui/bioquimica-clinica.git
 cd bioquimica-clinica
 # Abrí bioquimica_clinica_v1_8.html en tu navegador
 ```
@@ -51,14 +51,6 @@ cd bioquimica-clinica
 
 ---
 
-## Publicación en GitHub Pages
-
-1. Hacé fork o subí el repositorio a tu cuenta de GitHub.  
-2. Ir a **Settings → Pages**.  
-3. En *Source*, seleccionar la rama `main` y la carpeta raíz `/`.  
-4. GitHub Pages publicará el archivo HTML en `https://tu-usuario.github.io/bioquimica-clinica/bioquimica_clinica_v1_8.html`.
-
----
 
 ## Limitaciones conocidas
 
