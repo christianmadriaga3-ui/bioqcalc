@@ -1,4 +1,5 @@
-# Bioquímica Clínica — Calculadoras profesionales
+# BioqCalc
+Más de 80 calculadoras clínicas para bioquímicos — sin backend, sin cookies, 100% offline
 
 Herramienta web de apoyo profesional para bioquímicos y profesionales de laboratorio clínico. Agrupa más de 80 calculadoras organizadas en 11 áreas clínicas, con desarrollo paso a paso de cada fórmula, interpretación contextualizada y bibliografía referenciada.
 
