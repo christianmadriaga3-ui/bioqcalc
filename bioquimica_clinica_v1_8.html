@@ -316,7 +316,7 @@
     <path d="M5 10h3l2-5 2 10 2-5h1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
   <h1>Bioquímica Clínica — Calculadoras profesionales</h1>
-  <span class="version">v1.8</span>
+  <span class="version">v1.9</span>
 </header>
 
 <div class="app-layout">
@@ -801,7 +801,8 @@
 ══════════════════════════════════════════════════════════════════ */
 const BIBS = {
   ckdepi:    { authors:'Inker LA, Eneanya ND, Coresh J, et al.', title:'New creatinine- and cystatin C–based equations to estimate GFR without race.', journal:'New England Journal of Medicine. 2021;385(19):1737–1749.', doi:'10.1056/NEJMoa2102953', url:'https://doi.org/10.1056/NEJMoa2102953' },
-  kdigo2022: { authors:'KDIGO CKD Work Group.', title:'KDIGO 2022 clinical practice guideline for the evaluation and management of chronic kidney disease.', journal:'Kidney International. 2022;102(3S):S1–S321.', doi:'10.1016/j.kint.2022.09.004', url:'https://doi.org/10.1016/j.kint.2022.09.004' },
+  kdigo2022: { authors:'KDIGO CKD Work Group.', title:'KDIGO 2024 clinical practice guideline for the evaluation and management of chronic kidney disease.', journal:'Kidney International. 2024;105(4S):S117–S314.', doi:'10.1016/j.kint.2023.10.018', url:'https://doi.org/10.1016/j.kint.2023.10.018' },
+  mdrd2006:  { authors:'Levey AS, Coresh J, Greene T, et al.', title:'Using standardized serum creatinine values in the Modification of Diet in Renal Disease study equation for estimating glomerular filtration rate.', journal:'Annals of Internal Medicine. 2006;145(4):247–254.', doi:'10.7326/0003-4819-145-4-200608150-00004', url:'https://doi.org/10.7326/0003-4819-145-4-200608150-00004' },
   kdigo_aki: { authors:'KDIGO AKI Work Group.', title:'KDIGO clinical practice guideline for acute kidney injury.', journal:'Kidney International Supplements. 2012;2(1):1–138.', doi:'10.1038/kisup.2012.1', url:'https://doi.org/10.1038/kisup.2012.1' },
   mdrd:      { authors:'Levey AS, Bosch JP, Lewis JB, Greene T, Rogers N, Roth D.', title:'A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation.', journal:'Annals of Internal Medicine. 1999;130(6):461–470.', doi:'10.7326/0003-4819-130-6-199903160-00002', url:'https://doi.org/10.7326/0003-4819-130-6-199903160-00002' },
   schwartz:  { authors:'Schwartz GJ, Muñoz A, Schneider MF, et al.', title:'New equations to estimate GFR in children with CKD.', journal:'Journal of the American Society of Nephrology. 2009;20(3):629–637.', doi:'10.1681/ASN.2008030287', url:'https://doi.org/10.1681/ASN.2008030287' },
@@ -837,8 +838,8 @@ const BIBS = {
   who2013:    { authors:'World Health Organization.', title:'Diagnostic criteria and classification of hyperglycaemia first detected in pregnancy.', journal:'WHO/NMH/MND/13.2. Geneva: WHO; 2013.', doi:'', url:'https://www.who.int/publications/i/item/WHO-NMH-MND-13.2' },
   meld30:     { authors:'Kim WR, Mannalithara A, Heimbach JK, et al.', title:'MELD 3.0: the model for end-stage liver disease updated for the modern era.', journal:'Gastroenterology. 2021;161(6):1887–1895.', doi:'10.1053/j.gastro.2021.08.050', url:'https://doi.org/10.1053/j.gastro.2021.08.050' },
   fib4:       { authors:'Sterling RK, Lissen E, Clumeck N, et al.', title:'Development of a simple noninvasive index to predict significant fibrosis in patients with HIV/HCV coinfection.', journal:'Hepatology. 2006;43(6):1317–1325.', doi:'10.1002/hep.21178', url:'https://doi.org/10.1002/hep.21178' },
-  fib4_aasld: { authors:'American Association for the Study of Liver Diseases (AASLD).', title:'AASLD Practice Guidance on the Clinical Assessment and Management of Nonalcoholic Fatty Liver Disease.', journal:'Hepatology. 2023;77(5):1797–1835.', doi:'10.1097/HEP.0000000000000323', url:'https://doi.org/10.1097/HEP.0000000000000323' },
-  easl2024:   { authors:'European Association for the Study of the Liver; European Association for the Study of Diabetes; European Association for the Study of Obesity.', title:'EASL–EASD–EASO Clinical Practice Guidelines on the management of metabolic dysfunction-associated steatotic liver disease (MASLD).', journal:'Journal of Hepatology. 2024;82(6):1309–1409.', doi:'10.1016/j.jhep.2024.04.031', url:'https://doi.org/10.1016/j.jhep.2024.04.031' },
+  fib4_aasld: { authors:'Rinella ME, Neuschwander-Tetri BA, Siddiqui MS, et al.', title:'AASLD Practice Guidance on the clinical assessment and Management of Nonalcoholic Fatty Liver Disease.', journal:'Hepatology. 2023;77(5):1797–1835.', doi:'10.1097/HEP.0000000000000323', url:'https://doi.org/10.1097/HEP.0000000000000323' },
+  easl2024:   { authors:'European Association for the Study of the Liver; European Association for the Study of Diabetes; European Association for the Study of Obesity.', title:'EASL–EASD–EASO Clinical Practice Guidelines on the management of metabolic dysfunction-associated steatotic liver disease (MASLD).', journal:'Journal of Hepatology. 2024;81(3):492–542.', doi:'10.1016/j.jhep.2024.04.031', url:'https://doi.org/10.1016/j.jhep.2024.04.031' },
   bringhurst: { authors:'Bringhurst FR, Demay MB, Kronenberg HM.', title:'Calcium and phosphorus metabolism.', journal:'In: Melmed S et al. (eds). Williams Textbook of Endocrinology, 13th ed. Philadelphia: Elsevier; 2016. pp. 1253–1322.', doi:'', url:'https://www.elsevier.com/books/williams-textbook-of-endocrinology/melmed/978-0-323-29738-7' },
   agus1999:   { authors:'Agus ZS.', title:'Hypomagnesemia.', journal:'Journal of the American Society of Nephrology. 1999;10(7):1616–1622.', doi:'10.1681/ASN.V1071616', url:'https://doi.org/10.1681/ASN.V1071616' },
   rose_elec:  { authors:'Rose BD, Post TW.', title:'Clinical Physiology of Acid-Base and Electrolyte Disorders, 5th ed.', journal:'New York: McGraw-Hill; 2001. Chapters 13–15.', doi:'', url:'https://www.mhprofessional.com' },
@@ -848,15 +849,17 @@ const BIBS = {
   /* ── EAB ── */
   henderson:  { authors:'Henderson LJ.', title:'The theory of neutrality regulation in the animal organism.', journal:'American Journal of Physiology. 1908;21(4):427–448.', doi:'10.1152/ajplegacy.1908.21.4.427', url:'https://doi.org/10.1152/ajplegacy.1908.21.4.427' },
   hasselbalch:{ authors:'Hasselbalch KA.', title:'Die Berechnung der Wasserstoffzahl des Blutes aus der freien und gebundenen Kohlensäure desselben, und die Sauerstoffbindung des Blutes als Funktion der Wasserstoffzahl.', journal:'Biochemische Zeitschrift. 1916;78:112–144.', doi:'', url:'https://pubmed.ncbi.nlm.nih.gov/' },
-  winters:    { authors:'Winters RW.', title:'Terminology of acid-base disorders.', journal:'Annals of Internal Medicine. 1965;63(5):873–884.', doi:'10.7326/0003-4819-63-5-873', url:'https://doi.org/10.7326/0003-4819-63-5-873' },
+  winters:    { authors:'Albert MS, Dell RB, Winters RW.', title:'Quantitative displacement of acid-base equilibrium in metabolic acidosis.', journal:'Annals of Internal Medicine. 1967;66(2):312–322.', doi:'10.7326/0003-4819-66-2-312', url:'https://doi.org/10.7326/0003-4819-66-2-312' },
   stewart1983:{ authors:'Stewart PA.', title:'Modern quantitative acid-base chemistry.', journal:'Canadian Journal of Physiology and Pharmacology. 1983;61(12):1444–1461.', doi:'10.1139/y83-207', url:'https://doi.org/10.1139/y83-207' },
   fencl:      { authors:'Fencl V, Jabor A, Kazda A, Figge J.', title:'Diagnosis of metabolic acid-base disturbances in critically ill patients.', journal:'American Journal of Respiratory and Critical Care Medicine. 2000;162(6):2246–2251.', doi:'10.1164/ajrccm.162.6.9904099', url:'https://doi.org/10.1164/ajrccm.162.6.9904099' },
   corey:      { authors:'Corey HE.', title:'Stewart and beyond: new models of acid-base balance.', journal:'Kidney International. 2003;64(3):777–787.', doi:'10.1046/j.1523-1755.2003.00177.x', url:'https://doi.org/10.1046/j.1523-1755.2003.00177.x' },
-  adrogue:    { authors:'Adrogué HJ, Madias NE.', title:'Management of life-threatening acid-base disorders (two parts).', journal:'New England Journal of Medicine. 1998;338(1):26–34 y 338(2):107–111.', doi:'10.1056/NEJM199801013380107', url:'https://doi.org/10.1056/NEJM199801013380107' },
+  adrogue:    { authors:'Adrogué HJ, Madias NE.', title:'Management of life-threatening acid-base disorders (two parts).', journal:'New England Journal of Medicine. 1998;338(1):26–34 y 338(2):107–111.', doi:'10.1056/NEJM199801013380106', url:'https://doi.org/10.1056/NEJM199801013380106' },
   gabbow:     { authors:'Gabow PA, Kaehny WD, Fennessey PV, Goodman SI, Gross PA, Schrier RW.', title:'Diagnostic importance of an increased serum anion gap.', journal:'New England Journal of Medicine. 1980;303(15):854–858.', doi:'10.1056/NEJM198010023031505', url:'https://doi.org/10.1056/NEJM198010023031505' },
   narins:     { authors:'Narins RG, Emmett M.', title:'Simple and mixed acid-base disorders: a practical approach.', journal:'Medicine (Baltimore). 1980;59(3):161–187.', doi:'10.1097/00005792-198005000-00001', url:'https://doi.org/10.1097/00005792-198005000-00001' },
   kellum:     { authors:'Kellum JA.', title:'Determinants of blood pH in health and disease.', journal:'Critical Care. 2000;4(1):6–14.', doi:'10.1186/cc644', url:'https://doi.org/10.1186/cc644' },
   emmett:     { authors:'Emmett M, Narins RG.', title:'Clinical use of the anion gap.', journal:'Medicine (Baltimore). 1977;56(1):38–54.', doi:'10.1097/00005792-197701000-00003', url:'https://doi.org/10.1097/00005792-197701000-00003' },
+  idf2024:    { authors:'Bergman M, Manco M, Satman I, et al.', title:'International Diabetes Federation Position Statement on the 1-hour post-load plasma glucose for the diagnosis of intermediate hyperglycaemia and type 2 diabetes.', journal:'Diabetes Research and Clinical Practice. 2024;209:111589.', doi:'10.1016/j.diabres.2024.111589', url:'https://doi.org/10.1016/j.diabres.2024.111589' },
+  kim1996:    { authors:'Kim GH, Han JS, Kim YS, Joo KW, Kim S, Lee JS.', title:'Evaluation of urine acidification by urine anion gap and urine osmolal gap in chronic metabolic acidosis.', journal:'American Journal of Kidney Diseases. 1996;27(1):42–47.', doi:'10.1016/S0272-6386(96)90029-3', url:'https://doi.org/10.1016/S0272-6386(96)90029-3' },
   bewegung:   { authors:'Kofstad J.', title:'Base excess: a historical review — has the calculation of base excess been more standardized the last 20 years?', journal:'Clinica Chimica Acta. 2001;307(1–2):193–197.', doi:'10.1016/S0009-8981(01)00499-4', url:'https://doi.org/10.1016/S0009-8981(01)00499-4' }
 };
 
@@ -871,7 +874,7 @@ function renderBib(keys, containerId) {
       <span class="bib-title">${b.title}</span>
       <span class="bib-journal">${b.journal}</span>
       <a class="bib-doi" href="${b.url}" target="_blank" rel="noopener">
-        ↗ DOI: ${b.doi}
+        ↗ ${b.doi ? 'DOI: ' + b.doi : 'Ver fuente'}
       </a>
     </div>`;
   });
@@ -922,7 +925,6 @@ function showArea(area, btn) {
   document.getElementById('area-eab').style.display = area === 'eab' ? '' : 'none';
   document.getElementById('area-hem').style.display = area === 'hem' ? '' : 'none';
   document.getElementById('area-ele').style.display = area === 'ele' ? '' : 'none';
-  document.getElementById('area-ele').style.display = area === 'ele' ? '' : 'none';
   document.getElementById('area-cal').style.display = area === 'cal' ? '' : 'none';
   document.getElementById('area-nut').style.display = area === 'nut' ? '' : 'none';
   document.getElementById('area-sep').style.display = area === 'sep' ? '' : 'none';
@@ -942,9 +944,9 @@ const NEF_GROUPS = {
         inputs:[{id:'cr',label:'Creatinina sérica',unit:'mg/dL',ph:'ej: 1.0'},{id:'edad',label:'Edad',unit:'años',ph:'ej: 55'},{id:'sexo',label:'Sexo biológico',type:'select',opts:['Mujer','Varón']}],
         bibs:['ckdepi','kdigo2022'] },
       { id:'mdrd', name:'MDRD-4', pop:'Adultos — uso habitual',
-        formula:'eGFR = 175 × Cr^−1.154 × Edad^−0.203 [× 0.742 si mujer]',
+        formula:'eGFR = 175 × Cr^−1.154 × Edad^−0.203 [× 0.742 si mujer]\nVersión IDMS-trazable (Levey 2006). La original de 1999 usaba 186.',
         inputs:[{id:'cr',label:'Creatinina sérica',unit:'mg/dL',ph:'ej: 1.2'},{id:'edad',label:'Edad',unit:'años',ph:'ej: 60'},{id:'sexo',label:'Sexo biológico',type:'select',opts:['Mujer','Varón']}],
-        bibs:['mdrd','kdigo2022'] },
+        bibs:['mdrd','mdrd2006','kdigo2022'] },
       { id:'schwartz', name:'Schwartz', pop:'Pediátrica (<18 años)',
         formula:'eGFR = 0.413 × Talla / Creatinina sérica',
         inputs:[{id:'talla',label:'Talla',unit:'cm',ph:'ej: 120'},{id:'cr',label:'Creatinina sérica',unit:'mg/dL',ph:'ej: 0.6'}],
@@ -954,7 +956,7 @@ const NEF_GROUPS = {
         inputs:[{id:'hto',label:'Hematocrito',unit:'%',ph:'ej: 40'},{id:'urea',label:'Urea plasmática',unit:'mg/dL',ph:'ej: 35'},{id:'sexo',label:'Sexo biológico',type:'select',opts:['Mujer','Varón']}],
         bibs:['huge_a','huge_m'] },
       { id:'ekfc', name:'EKFC 2021', pop:'Adultos — poblaciones europeas',
-        formula:'eGFR = 107.3 / (Cr / Q)^0.988 × 0.990^(Edad − 40)   [si Cr > Q]\neGFR = 107.3 × (Cr / Q)^−0.322 × 0.990^(Edad − 40)   [si Cr ≤ Q]\nQ = 0.7 mg/dL (mujer) · Q = 0.9 mg/dL (varón)\n\nDesarrollada por el European Kidney Function Consortium (2021).\nMenor sesgo que CKD-EPI en poblaciones de ascendencia europea.',
+        formula:'eGFR = 107.3 × (Cr / Q)^−1.132 × [0.990^(Edad − 40) si Edad > 40]   [si Cr/Q ≥ 1]\neGFR = 107.3 × (Cr / Q)^−0.322 × [0.990^(Edad − 40) si Edad > 40]   [si Cr/Q < 1]\nQ = 0.7 mg/dL (mujer) · Q = 0.9 mg/dL (varón)   (adultos ≥ 25 años)\n\nDesarrollada por el European Kidney Function Consortium (2021).\nMenor sesgo que CKD-EPI en poblaciones de ascendencia europea.',
         inputs:[{id:'cr',label:'Creatinina sérica',unit:'mg/dL',ph:'ej: 1.1'},{id:'edad',label:'Edad',unit:'años',ph:'ej: 55'},{id:'sexo',label:'Sexo biológico',type:'select',opts:['Mujer','Varón']}],
         bibs:['ekfc','kdigo2022'] }
     ]
@@ -1053,7 +1055,7 @@ const NEF_GROUPS = {
 
 const KDIGO_STAGES = ['G1','G2','G3a','G3b','G4','G5'];
 const KDIGO_LABELS = ['G1 ≥90','G2 60–89','G3a 45–59','G3b 30–44','G4 15–29','G5 <15'];
-const KDIGO_RISK   = [[0,0,1],[0,1,2],[1,2,3],[2,3,3],[3,3,3],[3,3,3]];
+const KDIGO_RISK   = [[0,1,2],[0,1,2],[1,2,3],[2,3,3],[3,3,3],[3,3,3]];
 const RISK_COLORS  = [
   {bg:'#EAF3DE',clr:'#27500A',cls:'success',label:'Riesgo bajo'},
   {bg:'#E6F1FB',clr:'#0C447C',cls:'info',   label:'Riesgo moderado'},
@@ -1156,18 +1158,19 @@ function nefCalc() {
     if (isNaN(cr)||isNaN(edad)) { alert('Ingresá creatinina y edad.'); return; }
     const mujer = sexo==='Mujer', Q = mujer ? 0.7 : 0.9;
     const ratio  = cr / Q;
-    const ageFactor = Math.pow(0.990, edad - 40);
+    const ageFactor = edad > 40 ? Math.pow(0.990, edad - 40) : 1;
+    if (edad < 25) { wb.textContent = 'EKFC: para < 25 años el valor Q depende de la edad (Pottel 2021); este cálculo usa Q de adultos y puede ser inexacto.'; wb.style.display='block'; }
     let egfr;
-    if (cr <= Q) {
+    if (cr < Q) {
       egfr = 107.3 * Math.pow(ratio, -0.322) * ageFactor;
     } else {
-      egfr = (107.3 / Math.pow(ratio, 0.988)) * ageFactor;
+      egfr = (107.3 / Math.pow(ratio, 1.132)) * ageFactor;
     }
     const st = kdigoColor(egfr);
-    const rama = cr <= Q
-      ? `Cr ≤ Q → eGFR = 107.3 × (Cr/Q)^−0.322 × 0.990^(Edad−40)`
-      : `Cr > Q → eGFR = 107.3 / (Cr/Q)^0.988 × 0.990^(Edad−40)`;
-    const dev = `Q = ${Q} mg/dL (${mujer?'mujer':'varón'})\nCr/Q = ${cr}/${Q} = ${ratio.toFixed(4)}\n${rama}\n= 107.3 × ${cr<=Q?Math.pow(ratio,-0.322).toFixed(4):(1/Math.pow(ratio,0.988)).toFixed(4)} × 0.990^${edad-40}\n= 107.3 × ${cr<=Q?Math.pow(ratio,-0.322).toFixed(4):(1/Math.pow(ratio,0.988)).toFixed(4)} × ${ageFactor.toFixed(4)}\n= ${egfr.toFixed(1)} mL/min/1.73 m²\n\nEcuación EKFC 2021 — Pottel et al., Ann Intern Med. 2021`;
+    const rama = cr < Q
+      ? `Cr/Q < 1 → eGFR = 107.3 × (Cr/Q)^−0.322 × ${edad>40?'0.990^(Edad−40)':'1 (Edad ≤ 40)'}`
+      : `Cr/Q ≥ 1 → eGFR = 107.3 × (Cr/Q)^−1.132 × ${edad>40?'0.990^(Edad−40)':'1 (Edad ≤ 40)'}`;
+    const dev = `Q = ${Q} mg/dL (${mujer?'mujer':'varón'})\nCr/Q = ${cr}/${Q} = ${ratio.toFixed(4)}\n${rama}\n= 107.3 × ${cr<Q?Math.pow(ratio,-0.322).toFixed(4):(1/Math.pow(ratio,1.132)).toFixed(4)} × ${ageFactor.toFixed(4)}\n= 107.3 × ${cr<Q?Math.pow(ratio,-0.322).toFixed(4):(1/Math.pow(ratio,1.132)).toFixed(4)} × ${ageFactor.toFixed(4)}\n= ${egfr.toFixed(1)} mL/min/1.73 m²\n\nEcuación EKFC 2021 — Pottel et al., Ann Intern Med. 2021`;
     if (egfr > 60) { wb.textContent = 'EKFC validada principalmente en adultos europeos. Para otras poblaciones, la CKD-EPI 2021 sigue siendo la ecuación de referencia global.'; wb.style.display='block'; }
     setResult('nef',egfr.toFixed(1),'mL/min/1.73 m²',dev,st.cls,st.label,st.bg,st.clr,kdigoInterp(kdigoStage(egfr)));
 
@@ -1317,7 +1320,7 @@ function nefCalc() {
     const delta48=!isNaN(cr48)?(crAct-cr48):NaN;
     // Determine stage
     let estadio=0;
-    if (crAct>=4.0 && (ratio>=3.0 || (!isNaN(delta48)&&delta48>=0.3))) estadio=3;
+    if (crAct>=4.0 && (ratio>=1.5 || (!isNaN(delta48)&&delta48>=0.3))) estadio=3;
     else if (ratio>=3.0) estadio=3;
     else if (ratio>=2.0) estadio=2;
     else if (ratio>=1.5) estadio=1;
@@ -1368,7 +1371,7 @@ function nefCalc() {
     const fena=fv('fena_et'), feurea=fv('feurea_et'), urea=fv('urea_s'), cr=fv('cr_s');
     if (isNaN(fena)||isNaN(urea)||isNaN(cr)) { alert('Ingresá FENa, urea sérica y creatinina sérica.'); return; }
     if (cr===0) { alert('La creatinina no puede ser 0.'); return; }
-    const uc=urea/cr; // ratio urea/creatinina sérica (mg/mg)
+    const uc=(urea/2.14)/cr; // ratio BUN/creatinina (BUN = urea / 2.14); los cortes 10 y 20 están definidos para BUN/Cr
     // Scoring orientativo
     let prerrenalPts=0, renalPts=0;
     if (fena<1) prerrenalPts+=2; else if (fena>2) renalPts+=2; else { prerrenalPts+=1; renalPts+=1; }
@@ -1379,11 +1382,11 @@ function nefCalc() {
     const bg  = prerrenalPts>renalPts?'#E6F1FB':renalPts>prerrenalPts?'#FAEEDA':'#EAF3DE';
     const clr = prerrenalPts>renalPts?'#0C447C':renalPts>prerrenalPts?'#633806':'#27500A';
     const badge = `Orienta a: ${orienta}`;
-    const dev=`FENa:              ${fena}%  ${fena<1?'→ < 1% prerrenal':fena>2?'→ > 2% renal':'→ zona gris'}\n${!isNaN(feurea)?`FEUrea:            ${feurea}%  ${feurea<35?'→ < 35% prerrenal':feurea>50?'→ > 50% renal':'→ zona gris'}\n`:''}Urea/Creatinina:   ${uc.toFixed(1)}  ${uc>20?'→ > 20 prerrenal':uc<10?'→ < 10 renal':'→ zona gris (10–20)'}\n\nOrientación predominante: ${orienta.toUpperCase()}\n\nRef: KDIGO AKI 2012 · Espinel CH, JAMA 1976 · Carvounis CP, KI 2002`;
+    const dev=`FENa:              ${fena}%  ${fena<1?'→ < 1% prerrenal':fena>2?'→ > 2% renal':'→ zona gris'}\n${!isNaN(feurea)?`FEUrea:            ${feurea}%  ${feurea<35?'→ < 35% prerrenal':feurea>50?'→ > 50% renal':'→ zona gris'}\n`:''}BUN/Cr (BUN = urea/2.14): ${uc.toFixed(1)}  ${uc>20?'→ > 20 prerrenal':uc<10?'→ < 10 renal':'→ zona gris (10–20)'}\n\nOrientación predominante: ${orienta.toUpperCase()}\n\nRef: KDIGO AKI 2012 · Espinel CH, JAMA 1976 · Carvounis CP, KI 2002`;
     const interp = prerrenalPts>renalPts
-      ? `Los parámetros orientan hacia AKI PRERRENAL. El túbulo reabsorbe Na⁺ y urea activamente (FENa < 1%, ratio U/Cr > 20). Causas: hipovolemia (hemorragia, deshidratación, quemaduras), bajo gasto cardíaco, vasoconstricción renal (AINE, contraste, síndrome hepatorrenal). Respuesta esperable a reposición de volumen en < 48 h. Si no responde → sospechar NTA establecida.`
+      ? `Los parámetros orientan hacia AKI PRERRENAL. El túbulo reabsorbe Na⁺ y urea activamente (FENa < 1%, BUN/Cr > 20). Causas: hipovolemia (hemorragia, deshidratación, quemaduras), bajo gasto cardíaco, vasoconstricción renal (AINE, contraste, síndrome hepatorrenal). Respuesta esperable a reposición de volumen en < 48 h. Si no responde → sospechar NTA establecida.`
       : renalPts>prerrenalPts
-      ? `Los parámetros orientan hacia AKI INTRÍNSECA (NTA probable). Pérdida de función tubular: FENa > 2%, ratio U/Cr < 10. Causas más frecuentes: isquemia prolongada (prerenal no corregida), nefrotóxicos (aminoglucósidos, contraste yodado, cisplatino, mioglobina). La recuperación tubular tarda 1–3 semanas. Evaluar también glomerulonefritis aguda o nefritis intersticial si el sedimento lo sugiere.`
+      ? `Los parámetros orientan hacia AKI INTRÍNSECA (NTA probable). Pérdida de función tubular: FENa > 2%, BUN/Cr < 10. Causas más frecuentes: isquemia prolongada (prerenal no corregida), nefrotóxicos (aminoglucósidos, contraste yodado, cisplatino, mioglobina). La recuperación tubular tarda 1–3 semanas. Evaluar también glomerulonefritis aguda o nefritis intersticial si el sedimento lo sugiere.`
       : `Parámetros discordantes o en zona gris. No es posible distinguir prerrenal de renal intrínseca con certeza. Posibles causas: AKI mixta, NTA incipiente con función tubular parcialmente conservada, uso reciente de diuréticos (invalida FENa → usar FEUrea), rabdomiólisis o hemoglobinuria (FENa puede ser < 1% con NTA). Evaluar clínica, sedimento urinario y respuesta a volumen.`;
     setResult('nef', orienta, '', dev, cls, badge, bg, clr, interp);
     document.getElementById('nef-rtable').innerHTML=`
@@ -1391,7 +1394,7 @@ function nefCalc() {
       <table class="ref-table"><thead><tr><th>Parámetro</th><th>Resultado</th><th>Prerrenal</th><th>Renal (NTA)</th></tr></thead><tbody>
       <tr><td>FENa</td><td style="font-weight:500">${fena}%</td><td style="${fena<1?'color:#0C447C;font-weight:600':'color:var(--text2)'}">< 1%</td><td style="${fena>2?'color:#633806;font-weight:600':'color:var(--text2)'}"> > 2%</td></tr>
       ${!isNaN(feurea)?`<tr><td>FEUrea</td><td style="font-weight:500">${feurea}%</td><td style="${feurea<35?'color:#0C447C;font-weight:600':'color:var(--text2)'}">< 35%</td><td style="${feurea>50?'color:#633806;font-weight:600':'color:var(--text2)'}"> > 50%</td></tr>`:''}
-      <tr><td>Urea/Cr sérica</td><td style="font-weight:500">${uc.toFixed(1)}</td><td style="${uc>20?'color:#0C447C;font-weight:600':'color:var(--text2)'}"> > 20</td><td style="${uc<10?'color:#633806;font-weight:600':'color:var(--text2)'}"> < 10</td></tr>
+      <tr><td>BUN/Cr sérica</td><td style="font-weight:500">${uc.toFixed(1)}</td><td style="${uc>20?'color:#0C447C;font-weight:600':'color:var(--text2)'}"> > 20</td><td style="${uc<10?'color:#633806;font-weight:600':'color:var(--text2)'}"> < 10</td></tr>
       </tbody></table>`;
   }
 }
@@ -1446,7 +1449,7 @@ const LIP_GROUPS = {
         inputs:[{id:'ct',label:'Colesterol total',unit:'mg/dL',ph:'ej: 200'},{id:'hdl',label:'HDL colesterol',unit:'mg/dL',ph:'ej: 50'},{id:'tg',label:'Triglicéridos',unit:'mg/dL',ph:'ej: 150'}],
         bibs:['friedewald','aha2018','atpiii'] },
       { id:'martin', name:'Martin-Hopkins', pop:'Factor ajustado 2013',
-        formula:'LDL = CT − HDL − (TG / factor)\nFactor ajustado según TG y HDL (tabla de 180 celdas)',
+        formula:'LDL = CT − HDL − (TG / factor)\nEl método original usa un factor de una tabla de 180 celdas (TG × No-HDL).\n⚠ Esta calculadora usa una APROXIMACIÓN SIMPLIFICADA del factor (por estratos de TG y HDL).\nPara reporte clínico usar la tabla original o la ecuación de Sampson.',
         inputs:[{id:'ct',label:'Colesterol total',unit:'mg/dL',ph:'ej: 200'},{id:'hdl',label:'HDL colesterol',unit:'mg/dL',ph:'ej: 50'},{id:'tg',label:'Triglicéridos',unit:'mg/dL',ph:'ej: 150'}],
         bibs:['martin','aha2018'] },
       { id:'sampson', name:'Sampson 2020', pop:'TG elevados — hasta 800 mg/dL',
@@ -1567,7 +1570,8 @@ function lipCalc() {
     const ct=fv('ct'),hdl=fv('hdl'),tg=fv('tg');
     if(isNaN(ct)||isNaN(hdl)||isNaN(tg)){alert('Ingresá los tres valores.');return;}
     const factor=martinFactor(tg,hdl),ldl=ct-hdl-(tg/factor),cat=ldlCat(ldl);
-    const dev=`Factor ajustado (tabla TG/HDL): ${factor.toFixed(1)}\nLDL = CT − HDL − (TG / factor)\n= ${ct} − ${hdl} − (${tg} / ${factor.toFixed(1)})\n= ${ct} − ${hdl} − ${(tg/factor).toFixed(1)}\n= ${ldl.toFixed(1)} mg/dL`;
+    wb.textContent='Factor aproximado (no es la tabla original de 180 celdas de Martin et al. 2013). Usar como orientación; para reporte, usar la tabla original o Sampson 2020.';wb.style.display='block';
+    const dev=`Factor aproximado (estratos TG/HDL): ${factor.toFixed(1)}\nLDL = CT − HDL − (TG / factor)\n= ${ct} − ${hdl} − (${tg} / ${factor.toFixed(1)})\n= ${ct} − ${hdl} − ${(tg/factor).toFixed(1)}\n= ${ldl.toFixed(1)} mg/dL`;
     setResult('lip',ldl.toFixed(1),'mg/dL',dev,cat.cls,cat.label,cat.bg,cat.clr,interpLDL(cat.label));
     renderLdlTable(ldl);
 
@@ -1684,7 +1688,7 @@ const HEP_GROUPS = {
         ],
         bibs:['nfs'] },
       { id:'meld30', name:'MELD 3.0', pop:'Falla hepática — versión 2021',
-        formula:'MELD 3.0 = 4.56×ln(Bil) + 0.82×(137−Na) − 0.24×(137−Na)×ln(Bil)\n           + 9.09×ln(INR) + 11.14×ln(Cr) + 1.85×(3.5−Alb)\n           − 1.83×(3.5−Alb)×ln(Cr) + [4.92 si mujer] + 7\n\nLímites: Cr 1.0–3.0 · Na 125–137 · Alb 1.5–3.5 (mg/dL / mEq/L / g/dL)\nReemplazó a MELD-Na en UNOS/OPTN desde 2022. Corrige disparidad por sexo.',
+        formula:'MELD 3.0 = 4.56×ln(Bil) + 0.82×(137−Na) − 0.24×(137−Na)×ln(Bil)\n           + 9.09×ln(INR) + 11.14×ln(Cr) + 1.85×(3.5−Alb)\n           − 1.83×(3.5−Alb)×ln(Cr) + [1.33 si mujer] + 6\n\nLímites: Cr 1.0–3.0 · Na 125–137 · Alb 1.5–3.5 (mg/dL / mEq/L / g/dL)\nReemplazó a MELD-Na en UNOS/OPTN desde 2022. Corrige disparidad por sexo.',
         inputs:[
           {id:'bil_30',  label:'Bilirrubina total', unit:'mg/dL', ph:'ej: 3.0'},
           {id:'na_30',   label:'Sodio sérico',      unit:'mEq/L', ph:'ej: 132'},
@@ -1904,11 +1908,11 @@ function hepCalc() {
     if(alb0<1.5||alb0>3.5) warns.push('Albúmina fuera del rango 1.5–3.5 g/dL: valor acotado automáticamente.');
     if(warns.length){wb.textContent=warns.join(' ');wb.style.display='block';}
     const mujer30=sexo30==='Mujer';
-    const sexPts=mujer30?4.92:0;
+    const sexPts=mujer30?1.33:0;
     const score = 4.56*Math.log(bil) + 0.82*(137-na) - 0.24*(137-na)*Math.log(bil)
                 + 9.09*Math.log(inr) + 11.14*Math.log(cr)
                 + 1.85*(3.5-alb) - 1.83*(3.5-alb)*Math.log(cr)
-                + sexPts + 7;
+                + sexPts + 6;
     const meld30Val = Math.round(score);
     const cls   = meld30Val<10?'success':meld30Val<20?'info':meld30Val<30?'warn':'danger';
     const bg    = meld30Val<10?'#EAF3DE':meld30Val<20?'#E6F1FB':meld30Val<30?'#FAEEDA':'#FCEBEB';
@@ -1923,7 +1927,7 @@ function hepCalc() {
           t3=(0.24*(137-na)*Math.log(bil)).toFixed(3), t4=(9.09*Math.log(inr)).toFixed(3),
           t5=(11.14*Math.log(cr)).toFixed(3), t6=(1.85*(3.5-alb)).toFixed(3),
           t7=(1.83*(3.5-alb)*Math.log(cr)).toFixed(3);
-    const dev=`MELD 3.0 = 4.56×ln(Bil) + 0.82×(137−Na) − 0.24×(137−Na)×ln(Bil)\n         + 9.09×ln(INR) + 11.14×ln(Cr)\n         + 1.85×(3.5−Alb) − 1.83×(3.5−Alb)×ln(Cr)${mujer30?' + 4.92 (mujer)':''} + 7\n\nValores usados (con límites aplicados):\nBil=${bil} · Na=${na} · INR=${inr} · Cr=${cr} · Alb=${alb}\n\n= ${t1} + ${t2} − ${t3}\n+ ${t4} + ${t5}\n+ ${t6} − ${t7}${mujer30?' + 4.92':''} + 7\n= ${score.toFixed(3)} → ${meld30Val} (redondeado)\n\nMortalidad a 90 días estimada: ${mort90}`;
+    const dev=`MELD 3.0 = 4.56×ln(Bil) + 0.82×(137−Na) − 0.24×(137−Na)×ln(Bil)\n         + 9.09×ln(INR) + 11.14×ln(Cr)\n         + 1.85×(3.5−Alb) − 1.83×(3.5−Alb)×ln(Cr)${mujer30?' + 1.33 (mujer)':''} + 6\n\nValores usados (con límites aplicados):\nBil=${bil} · Na=${na} · INR=${inr} · Cr=${cr} · Alb=${alb}\n\n= ${t1} + ${t2} − ${t3}\n+ ${t4} + ${t5}\n+ ${t6} − ${t7}${mujer30?' + 4.92':''} + 7\n= ${score.toFixed(3)} → ${meld30Val} (redondeado)\n\nMortalidad a 90 días estimada: ${mort90}`;
     setResult('hep', String(meld30Val), 'puntos MELD 3.0', dev, cls, badge, bg, clr, interp);
     // Tabla de referencia
     const meldRows=[
@@ -2312,14 +2316,14 @@ const GLC_GROUPS = {
   },
   ptog: {
     eqs: [
-      { id:'ptog_ada', name:'PTOG 75 g — ADA 2024', pop:'Adultos no embarazadas',
-        formula:'Prueba de tolerancia oral a la glucosa — 75 g\nMuestras: basal (ayunas) · 1 hora · 2 horas\n\nCriterios ADA 2024 (cualquier valor positivo = diagnóstico):\nBasal ≥ 126 mg/dL → DM\n1 hora ≥ 200 mg/dL → DM (nuevo criterio 2024)\n2 horas ≥ 200 mg/dL → DM\n\nPrediabetes (2 horas): 140–199 mg/dL → TAG',
+      { id:'ptog_ada', name:'PTOG 75 g — ADA / IDF', pop:'Adultos no embarazadas',
+        formula:'Prueba de tolerancia oral a la glucosa — 75 g\nMuestras: basal (ayunas) · 1 hora · 2 horas\n\nCriterios ADA 2024 (cualquier valor positivo = diagnóstico):\nBasal ≥ 126 mg/dL → DM\n1 hora: NO es criterio ADA. IDF 2024: ≥ 209 → DM2 · 155–208 → hiperglucemia intermedia\nBasal 100–125 → glucemia alterada en ayunas\n2 horas ≥ 200 mg/dL → DM\n\nPrediabetes (2 horas): 140–199 mg/dL → TAG',
         inputs:[
           {id:'g0_ada', label:'Glucemia basal (0 h)',  unit:'mg/dL', ph:'ej: 95'},
           {id:'g1_ada', label:'Glucemia 1 hora',       unit:'mg/dL', ph:'ej: 155'},
           {id:'g2_ada', label:'Glucemia 2 horas',      unit:'mg/dL', ph:'ej: 145'}
         ],
-        bibs:['ada2024'] },
+        bibs:['ada2024','idf2024'] },
       { id:'ptog_iadpsg', name:'PTOG — IADPSG / OMS', pop:'Embarazadas — 24–28 semanas',
         formula:'Prueba de tolerancia oral a la glucosa — 75 g (embarazo)\nMuestras: basal (ayunas) · 1 hora · 2 horas\n\nCriterios IADPSG 2010 / OMS 2013:\nBasal   ≥ 92 mg/dL → DMG\n1 hora  ≥ 180 mg/dL → DMG\n2 horas ≥ 153 mg/dL → DMG\n\nUn solo valor alterado es suficiente para diagnóstico.',
         inputs:[
@@ -2563,25 +2567,26 @@ function glcCalc() {
   } else if (e.id === 'ptog_ada') {
     const g0 = fv('g0_ada'), g1 = fv('g1_ada'), g2 = fv('g2_ada');
     if (isNaN(g0)||isNaN(g1)||isNaN(g2)) { alert('Ingresá los tres valores de glucemia.'); return; }
-    const dm0 = g0 >= 126, dm1 = g1 >= 200, dm2 = g2 >= 200;
-    const tag  = !dm2 && g2 >= 140;
+    const dm0 = g0 >= 126, dm1 = g1 >= 209, dm2 = g2 >= 200;
+    const gaa = !dm0 && g0 >= 100, ih1 = !dm1 && g1 >= 155;
+    const tag  = (!dm2 && g2 >= 140) || gaa || ih1;
     const anyDM = dm0 || dm1 || dm2;
     const cls   = anyDM ? 'danger' : tag ? 'warn' : 'success';
     const bg    = anyDM ? '#FCEBEB' : tag ? '#FAEEDA' : '#EAF3DE';
     const clr   = anyDM ? '#791F1F' : tag ? '#633806' : '#27500A';
-    const badge = anyDM ? 'Criterio positivo para DM' : tag ? 'Tolerancia alterada (TAG)' : 'Normal';
+    const badge = anyDM ? 'Criterio positivo para DM' : tag ? 'Prediabetes / hiperglucemia intermedia' : 'Normal';
     const interp = anyDM
-      ? `PTOG 75 g positiva para diabetes mellitus según criterios ADA 2024. Valores alterados en: ${[dm0&&'basal ≥ 126',dm1&&'1 hora ≥ 200',dm2&&'2 horas ≥ 200'].filter(Boolean).join(', ')}. Confirmar diagnóstico con una segunda determinación si no hay síntomas. Iniciar evaluación clínica y plan de manejo.`
+      ? `PTOG 75 g positiva para diabetes mellitus según criterios ADA 2024. Valores alterados en: ${[dm0&&'basal ≥ 126 (ADA)',dm1&&'1 hora ≥ 209 (IDF 2024)',dm2&&'2 horas ≥ 200 (ADA)'].filter(Boolean).join(', ')}. Confirmar diagnóstico con una segunda determinación si no hay síntomas. Iniciar evaluación clínica y plan de manejo.`
       : tag
-      ? `Tolerancia alterada a la glucosa (TAG): glucemia a las 2 horas entre 140–199 mg/dL. Categoría de prediabetes. Riesgo elevado de progresión a DM tipo 2. Intervención intensiva en estilo de vida indicada.`
+      ? `Prediabetes / hiperglucemia intermedia: ${[gaa&&'glucemia en ayunas alterada (100–125)',(!dm2&&g2>=140)&&'TAG a las 2 h (140–199)',ih1&&'1 h ≥ 155 (IDF 2024)'].filter(Boolean).join(', ')}. Riesgo elevado de progresión a DM tipo 2. Intervención intensiva en estilo de vida indicada.`
       : 'PTOG 75 g normal. Todos los valores dentro de los criterios ADA 2024. Sin evidencia de diabetes ni prediabetes por esta prueba.';
-    const dev = `PTOG 75 g — Criterios ADA 2024\nBasal (0 h): ${g0} mg/dL  ${dm0?'≥ 126 → POSITIVO (DM)':'< 126 → negativo'}\n1 hora:      ${g1} mg/dL  ${dm1?'≥ 200 → POSITIVO (DM)':'< 200 → negativo'}\n2 horas:     ${g2} mg/dL  ${dm2?'≥ 200 → POSITIVO (DM)':g2>=140?'140–199 → TAG (prediabetes)':'< 140 → normal'}`;
-    setResult('glc', anyDM ? 'DM positivo' : tag ? 'TAG (prediabetes)' : 'Normal', '', dev, cls, badge, bg, clr, interp);
+    const dev = `PTOG 75 g — Criterios ADA (0 y 2 h) + IDF 2024 (1 h)\nBasal (0 h): ${g0} mg/dL  ${dm0?'≥ 126 → POSITIVO (DM)':gaa?'100–125 → GAA (prediabetes)':'< 100 → normal'}\n1 hora:      ${g1} mg/dL  ${dm1?'≥ 209 → DM2 (IDF 2024)':ih1?'155–208 → hiperglucemia intermedia (IDF 2024)':'< 155 → normal'}\n2 horas:     ${g2} mg/dL  ${dm2?'≥ 200 → POSITIVO (DM)':g2>=140?'140–199 → TAG (prediabetes)':'< 140 → normal'}`;
+    setResult('glc', anyDM ? 'DM positivo' : tag ? 'Prediabetes' : 'Normal', '', dev, cls, badge, bg, clr, interp);
     document.getElementById('glc-rmulti').innerHTML = `
-      <p style="font-size:12px;font-weight:500;color:var(--text2);margin:12px 0 6px">Resultado por punto de corte — ADA 2024</p>
+      <p style="font-size:12px;font-weight:500;color:var(--text2);margin:12px 0 6px">Resultado por punto de corte — ADA / IDF 2024</p>
       <div class="multi-results">
         ${ptogRow('Basal (0 h)', g0, 126, '#FCEBEB', '#791F1F')}
-        ${ptogRow('1 hora', g1, 200, '#FCEBEB', '#791F1F')}
+        ${ptogRow('1 hora (IDF)', g1, 209, '#FCEBEB', '#791F1F')}
         ${ptogRow('2 horas (DM)', g2, 200, '#FCEBEB', '#791F1F')}
         ${ptogRow('2 horas (TAG)', g2, 140, '#FAEEDA', '#633806')}
       </div>`;
@@ -2688,7 +2693,7 @@ const EAB_GROUPS = {
   comp: {
     eqs: [
       { id:'comp_acm', name:'Acidosis met.', pop:'Compensación respiratoria (Winter)',
-        formula:'PaCO₂ esperada = (1.5 × HCO₃⁻) + 8 ± 2  [mmHg]\nRegla de Winter — Winters RW, Ann Intern Med 1965\nAlternativamente: PaCO₂ = HCO₃⁻ + 15 (±2) [simplificada]\nSi PaCO₂ observada < esperada → alcalosis respiratoria mixta\nSi PaCO₂ observada > esperada → acidosis respiratoria mixta',
+        formula:'PaCO₂ esperada = (1.5 × HCO₃⁻) + 8 ± 2  [mmHg]\nFórmula de Winters — Albert, Dell & Winters, Ann Intern Med 1967\nAlternativamente: PaCO₂ = HCO₃⁻ + 15 (±2) [simplificada]\nSi PaCO₂ observada < esperada → alcalosis respiratoria mixta\nSi PaCO₂ observada > esperada → acidosis respiratoria mixta',
         inputs:[
           {id:'hco3_w',  label:'HCO₃⁻ actual',      unit:'mEq/L', ph:'ej: 16'},
           {id:'pco2_obs',label:'PaCO₂ observada',    unit:'mmHg',  ph:'ej: 30'},
@@ -2750,7 +2755,7 @@ const EAB_GROUPS = {
         ],
         bibs:['gabbow','emmett','fencl'] },
       { id:'delta_delta', name:'Delta-delta', pop:'Trastornos mixtos con AG elevado',
-        formula:'Δ-Δ = (AG − 12) / (24 − HCO₃⁻)\n\nInterpretación:\n< 0.4: AG elevado + acidosis metabólica hiperclorémica mixta\n0.4–1.0: acidosis metabólica pura con AG elevado\n1.0–2.0: rango esperado para AG puro\n> 2.0: AG elevado + alcalosis metabólica superpuesta\n\nBase: Narins & Emmett, Medicine 1980',
+        formula:'Δ-Δ = (AG − 12) / (24 − HCO₃⁻)\n\nInterpretación:\n< 0.4: AG elevado + acidosis metabólica hiperclorémica mixta\n0.4–1.0: AG elevado + componente hiperclorémico (mixto)\n1.0–2.0: rango esperado para AG puro\n> 2.0: AG elevado + alcalosis metabólica superpuesta\n\nBase: Narins & Emmett, Medicine 1980',
         inputs:[
           {id:'ag_dd',  label:'Anión gap actual', unit:'mEq/L', ph:'ej: 20'},
           {id:'hco3_dd',label:'HCO₃⁻ actual',    unit:'mEq/L', ph:'ej: 14'}
@@ -2761,7 +2766,7 @@ const EAB_GROUPS = {
   stewart: {
     eqs: [
       { id:'sid', name:'SID simplificado', pop:'Strong Ion Difference — Stewart',
-        formula:'SID = Na⁺ + K⁺ − Cl⁻ − Lactato\nTodos en mEq/L · Lactato normal < 2 mEq/L\n\nSID normal: 38–42 mEq/L\nSID efectivo: HCO₃⁻ + Albumin × (0.123 × pH − 0.631) + Pi × (0.309 × pH − 0.469)\nSID gap (Atot): SID − SIDef  → evalúa aniones no medidos\n\nFísicoquímica de Stewart: 3 variables independientes controlan el pH:\n  1. SID  2. Atot (ácidos débiles totales)  3. PCO₂',
+        formula:'SID = Na⁺ + K⁺ − Cl⁻ − Lactato\nTodos en mEq/L · Lactato normal < 2 mEq/L\n\nSID normal: 38–42 mEq/L\nSID efectivo: HCO₃⁻ + Alb(g/L) × (0.123 × pH − 0.631) + Pi(mmol/L) × (0.309 × pH − 0.469)\nSID gap (Atot): SID − SIDef  → evalúa aniones no medidos\n\nFísicoquímica de Stewart: 3 variables independientes controlan el pH:\n  1. SID  2. Atot (ácidos débiles totales)  3. PCO₂',
         inputs:[
           {id:'na_sid',  label:'Na⁺',       unit:'mEq/L', ph:'ej: 140'},
           {id:'k_sid',   label:'K⁺',        unit:'mEq/L', ph:'ej: 4.0'},
@@ -2769,7 +2774,7 @@ const EAB_GROUPS = {
           {id:'lac_sid', label:'Lactato',    unit:'mEq/L', ph:'ej: 1.0'},
           {id:'alb_sid', label:'Albúmina',   unit:'g/dL',  ph:'ej: 4.0'},
           {id:'ph_sid',  label:'pH',         unit:'',      ph:'ej: 7.40'},
-          {id:'pi_sid',  label:'Fosfato (Pi)',unit:'mEq/L',ph:'ej: 1.1'},
+          {id:'pi_sid',  label:'Fósforo (Pi)',unit:'mg/dL',ph:'ej: 3.4'},
           {id:'hco3_sid',label:'HCO₃⁻',     unit:'mEq/L', ph:'ej: 24'}
         ],
         bibs:['stewart1983','fencl','corey','kellum'] }
@@ -3126,8 +3131,8 @@ function eabCalc() {
     const SID = na + k - cl - lac;
 
     // SID efectivo (Fencl 2000)
-    const albTerm = alb * (0.123 * ph - 0.631);
-    const piTerm  = pi  * (0.309 * ph - 0.469);
+    const albTerm = (alb * 10) * (0.123 * ph - 0.631);   // Figge: albúmina en g/L
+    const piTerm  = (pi / 3.097) * (0.309 * ph - 0.469); // Figge: fosfato en mmol/L
     const SIDef   = hco3 + albTerm + piTerm;
 
     const SIDgap  = SID - SIDef; // aniones no medidos (como AG pero con base Stewart)
@@ -3146,7 +3151,7 @@ function eabCalc() {
       ? `SID = ${SID.toFixed(1)} mEq/L (> 42): alcalosis por Stewart. Causas: ↓Cl⁻ (hipocloremia por vómitos/diuréticos), ↑Na⁺. SID efectivo = ${SIDef.toFixed(1)} mEq/L.`
       : `SID = ${SID.toFixed(1)} mEq/L. SID gap = ${SIDgap.toFixed(1)} mEq/L — diferencia entre SID y SIDef indicativa de aniones no medidos.`;
 
-    const dev = `Análisis de Stewart — SID simplificado\nFencl et al., Am J Respir Crit Care Med 2000\n\nSID = Na⁺ + K⁺ − Cl⁻ − Lactato\n= ${na} + ${k} − ${cl} − ${lac}\n= ${SID.toFixed(1)} mEq/L (normal: 38–42)\n\nSID efectivo (Fencl 2000):\nSIDef = HCO₃⁻ + Alb×(0.123×pH−0.631) + Pi×(0.309×pH−0.469)\n= ${hco3} + ${alb}×(0.123×${ph}−0.631) + ${pi}×(0.309×${ph}−0.469)\n= ${hco3} + ${albTerm.toFixed(3)} + ${piTerm.toFixed(3)}\n= ${SIDef.toFixed(2)} mEq/L\n\nSID gap (aniones no medidos):\n= SID − SIDef = ${SID.toFixed(1)} − ${SIDef.toFixed(2)} = ${SIDgap.toFixed(2)} mEq/L\n(normal: −3 a +3 mEq/L)`;
+    const dev = `Análisis de Stewart — SID simplificado\nFencl et al., Am J Respir Crit Care Med 2000\n\nSID = Na⁺ + K⁺ − Cl⁻ − Lactato\n= ${na} + ${k} − ${cl} − ${lac}\n= ${SID.toFixed(1)} mEq/L (normal: 38–42)\n\nSID efectivo (Fencl 2000):\nSIDef = HCO₃⁻ + Alb(g/L)×(0.123×pH−0.631) + Pi(mmol/L)×(0.309×pH−0.469)\n= ${hco3} + ${(alb*10).toFixed(0)}×(0.123×${ph}−0.631) + ${(pi/3.097).toFixed(2)}×(0.309×${ph}−0.469)\n= ${hco3} + ${albTerm.toFixed(3)} + ${piTerm.toFixed(3)}\n= ${SIDef.toFixed(2)} mEq/L\n\nSID gap (aniones no medidos):\n= SID − SIDef = ${SID.toFixed(1)} − ${SIDef.toFixed(2)} = ${SIDgap.toFixed(2)} mEq/L\n(normal: −3 a +3 mEq/L)`;
 
     setResult('eab', SID.toFixed(1), 'mEq/L (SID)', dev, cls, badge, bg, clr, interp);
 
@@ -3233,7 +3238,7 @@ const HEM_GROUPS = {
         inputs:[{id:'vcm',label:'VCM',unit:'fL',ph:'ej: 70'},{id:'gr',label:'GR (eritrocitos)',unit:'×10¹²/L',ph:'ej: 5.2'},{id:'hb',label:'Hemoglobina',unit:'g/dL',ph:'ej: 11'}],
         bibs:['england','dacie_lewis'] },
       { id:'green_king', name:'Green & King', pop:'Incluye RDW — 1989',
-        formula:'GK = VCM² × RDW / (Hb × 100)\n\n> 65: sugestivo de talasemia minor\n≤ 65: sugestivo de ferropenia\n\nRDW en % · Hb en g/dL\nÚtil cuando GR normal pero RDW elevado.',
+        formula:'GK = VCM² × RDW / (Hb × 100)\n\n> 65: sugestivo de ferropenia\n≤ 65: sugestivo de talasemia minor\n\nRDW en % · Hb en g/dL\nÚtil cuando GR normal pero RDW elevado.',
         inputs:[{id:'vcm',label:'VCM',unit:'fL',ph:'ej: 68'},{id:'rdw',label:'RDW',unit:'%',ph:'ej: 16'},{id:'hb',label:'Hemoglobina',unit:'g/dL',ph:'ej: 10.5'}],
         bibs:['green_king','dacie_lewis'] },
       { id:'shine_lal', name:'Shine & Lal', pop:'VCM² × HCM — 1977',
@@ -3249,7 +3254,7 @@ const HEM_GROUPS = {
         inputs:[{id:'vcm',label:'VCM',unit:'fL',ph:'ej: 69'},{id:'rdw',label:'RDW',unit:'%',ph:'ej: 17'},{id:'gr',label:'GR (eritrocitos)',unit:'×10¹²/L',ph:'ej: 5.2'}],
         bibs:['rdwi','dacie_lewis'] },
       { id:'ricerca', name:'Ricerca', pop:'RDW / GR — 1987',
-        formula:'Índice de Ricerca = RDW / GR\n\n> 0.220: sugestivo de ferropenia\n≤ 0.220: sugestivo de rasgo talasémico\n\nGR en ×10¹²/L · RDW en %',
+        formula:'Índice de Ricerca = RDW / GR\n\n> 4.4: sugestivo de ferropenia\n≤ 4.4: sugestivo de rasgo talasémico\n\nGR en ×10¹²/L · RDW en %',
         inputs:[{id:'rdw',label:'RDW',unit:'%',ph:'ej: 16.5'},{id:'gr',label:'GR (eritrocitos)',unit:'×10¹²/L',ph:'ej: 5.3'}],
         bibs:['ricerca','dacie_lewis'] },
       { id:'micro_perfil', name:'Perfil completo', pop:'Todos los índices simultáneos',
@@ -3413,13 +3418,13 @@ function hemCalc() {
     if (isNaN(vcm)||isNaN(rdw)||isNaN(hb)) { alert('Ingresá VCM, RDW y Hb.'); return; }
     if (hb === 0) { alert('Hb no puede ser 0.'); return; }
     const idx = (vcm * vcm * rdw) / (hb * 100);
-    const ferro = idx <= 65;
+    const ferro = idx > 65;
     const c = microBadge(ferro);
-    const dev = `Green & King = VCM² × RDW / (Hb × 100)\n= ${vcm}² × ${rdw} / (${hb} × 100)\n= ${(vcm*vcm).toFixed(0)} × ${rdw} / ${(hb*100).toFixed(0)}\n= ${(vcm*vcm*rdw).toFixed(1)} / ${(hb*100).toFixed(0)}\n= ${idx.toFixed(2)}\n\nCorte: 65\n${ferro ? '≤ 65 → sugestivo de ferropenia' : '> 65 → sugestivo de talasemia minor'}`;
+    const dev = `Green & King = VCM² × RDW / (Hb × 100)\n= ${vcm}² × ${rdw} / (${hb} × 100)\n= ${(vcm*vcm).toFixed(0)} × ${rdw} / ${(hb*100).toFixed(0)}\n= ${(vcm*vcm*rdw).toFixed(1)} / ${(hb*100).toFixed(0)}\n= ${idx.toFixed(2)}\n\nCorte: 65\n${ferro ? '> 65 → sugestivo de ferropenia' : '≤ 65 → sugestivo de talasemia minor'}`;
     setResult('hem', idx.toFixed(2), '(Green & King)', dev, c.cls, c.txt, c.bg, c.clr,
       ferro
-        ? 'Valor ≤ 65: orienta hacia ferropenia. Este índice incorpora el RDW, útil cuando hay anisocitosis marcada. Confirmar con ferrugrama.'
-        : 'Valor > 65: orienta hacia talasemia minor. El RDW relativamente bajo es característico del rasgo talasémico (eritrocitos pequeños pero uniformes). Confirmar con HPLC.');
+        ? 'Valor > 65: orienta hacia ferropenia. Este índice incorpora el RDW, útil cuando hay anisocitosis marcada. Confirmar con ferrugrama.'
+        : 'Valor ≤ 65: orienta hacia talasemia minor. El RDW relativamente bajo es característico del rasgo talasémico (eritrocitos pequeños pero uniformes). Confirmar con HPLC.');
     wb.textContent = '⚠ Consulta con hematólogo recomendada. Índice de cribado, no diagnóstico definitivo.';
     wb.style.display = 'block';
 
@@ -3472,13 +3477,13 @@ function hemCalc() {
     if (isNaN(rdw)||isNaN(gr)) { alert('Ingresá RDW y GR.'); return; }
     if (gr === 0) { alert('GR no puede ser 0.'); return; }
     const idx = rdw / gr;
-    const ferro = idx > 0.220;
+    const ferro = idx > 4.4;
     const c = microBadge(ferro);
-    const dev = `Índice de Ricerca = RDW / GR\n= ${rdw} / ${gr}\n= ${idx.toFixed(4)}\n\nCorte: 0.220\n${ferro ? '> 0.220 → sugestivo de ferropenia' : '≤ 0.220 → sugestivo de rasgo talasémico'}`;
-    setResult('hem', idx.toFixed(4), '(Ricerca)', dev, c.cls, c.txt, c.bg, c.clr,
+    const dev = `Índice de Ricerca = RDW / GR\n= ${rdw} / ${gr}\n= ${idx.toFixed(2)}\n\nCorte: 4.4\n${ferro ? '> 4.4 → sugestivo de ferropenia' : '≤ 4.4 → sugestivo de rasgo talasémico'}`;
+    setResult('hem', idx.toFixed(2), '(Ricerca)', dev, c.cls, c.txt, c.bg, c.clr,
       ferro
-        ? 'Índice > 0.220: orienta hacia ferropenia. El aumento del RDW refleja anisocitosis por deficiencia de hierro. Confirmar con ferrugrama.'
-        : 'Índice ≤ 0.220: orienta hacia rasgo talasémico. RDW relativamente normal es distintivo del rasgo. Confirmar con HPLC.');
+        ? 'Índice > 4.4: orienta hacia ferropenia. El aumento del RDW refleja anisocitosis por deficiencia de hierro. Confirmar con ferrugrama.'
+        : 'Índice ≤ 4.4: orienta hacia rasgo talasémico. RDW relativamente normal es distintivo del rasgo. Confirmar con HPLC.');
     wb.textContent = '⚠ Consulta con hematólogo recomendada. Índice de cribado, no diagnóstico definitivo.';
     wb.style.display = 'block';
 
@@ -3490,11 +3495,11 @@ function hemCalc() {
     const indices = [
       { name:'Mentzer',        val: vcm/gr,                     corte:13,   dirFerro:true,  unit:'VCM/GR' },
       { name:'England & Fraser', val: vcm-gr-(5*hb)-3.4,        corte:0,    dirFerro:true,  unit:'(sin unidad)' },
-      { name:'Green & King',   val: (vcm*vcm*rdw)/(hb*100),    corte:65,   dirFerro:false, unit:'(adim.)' },
+      { name:'Green & King',   val: (vcm*vcm*rdw)/(hb*100),    corte:65,   dirFerro:true,  unit:'(adim.)' },
       { name:'Shine & Lal',    val: (vcm*vcm*hcm)/100,          corte:1530, dirFerro:true,  unit:'(adim.)' },
       { name:'Srivastava',     val: hcm/gr,                     corte:3.8,  dirFerro:true,  unit:'pg/×10¹²' },
       { name:'RDW-I',          val: (vcm*rdw)/gr,               corte:220,  dirFerro:true,  unit:'(adim.)' },
-      { name:'Ricerca',        val: rdw/gr,                     corte:0.220,dirFerro:true,  unit:'(adim.)' }
+      { name:'Ricerca',        val: rdw/gr,                     corte:4.4,  dirFerro:true,  unit:'(adim.)' }
     ];
 
     let ferroCount = 0, talaCount = 0;
@@ -3715,7 +3720,7 @@ Object.assign(BIBS, {
   adrogue1981:{ authors:'Adrogué HJ, Madias NE.', title:'Changes in plasma potassium concentration during acute acid-base disturbances.', journal:'American Journal of Medicine. 1981;71(3):456–467.', doi:'10.1016/0002-9343(81)90182-0', url:'https://doi.org/10.1016/0002-9343(81)90182-0' },
   funder2016: { authors:'Funder JW, Carey RM, Mantero F, et al.', title:'The management of primary aldosteronism.', journal:'Journal of Clinical Endocrinology & Metabolism. 2016;101(5):1889–1916.', doi:'10.1210/jc.2015-4061', url:'https://doi.org/10.1210/jc.2015-4061' },
   rose_post:  { authors:'Rose BD, Post TW.', title:'Clinical Physiology of Acid-Base and Electrolyte Disorders, 5th ed.', journal:'New York: McGraw-Hill; 2001.', doi:'', url:'https://www.mhprofessional.com' },
-  battle1988: { authors:'Battle DC, Hizon M, Cohen E, Gutterman C, Gupta R.', title:'The use of the urinary anion gap in the diagnosis of hyperchloremic metabolic acidosis.', journal:'New England Journal of Medicine. 1988;318(10):594–599.', doi:'10.1056/NEJM198803103181002', url:'https://doi.org/10.1056/NEJM198803103181002' }
+  battle1988: { authors:'Batlle DC, Hizon M, Cohen E, Gutterman C, Gupta R.', title:'The use of the urinary anion gap in the diagnosis of hyperchloremic metabolic acidosis.', journal:'New England Journal of Medicine. 1988;318(10):594–599.', doi:'10.1056/NEJM198803103181002', url:'https://doi.org/10.1056/NEJM198803103181002' }
 });
 
 const ELE_GROUPS = {
@@ -3740,7 +3745,7 @@ const ELE_GROUPS = {
         ],
         bibs:['dorwart','purssell'] },
       { id:'osm_etoh', name:'Con etanol', pop:'Intoxicación alcohólica',
-        formula:'Osm calc = 2×Na + Glucosa/18 + BUN/2.8 + Etanol/4.6\nEtanol en mg/dL\n\nContribución del etanol:\n  100 mg/dL de etanol ≈ 22 mOsm/kg\n\nÚtil para estimar qué fracción de la brecha osmolar\nes atribuible al etanol en intoxicación etílica conocida.',
+        formula:'Osm calc = 2×Na + Glucosa/18 + BUN/2.8 + Etanol/3.7\nEtanol en mg/dL\n\nContribución del etanol:\n  100 mg/dL de etanol ≈ 27 mOsm/kg (factor empírico 3.7 de Purssell 2001;\n  el factor teórico por peso molecular es 4.6)\n\nÚtil para estimar qué fracción de la brecha osmolar\nes atribuible al etanol en intoxicación etílica conocida.',
         inputs:[
           {id:'na_oe',     label:'Na⁺',                   unit:'mEq/L',   ph:'ej: 138'},
           {id:'glc_oe',    label:'Glucosa',                unit:'mg/dL',   ph:'ej: 85'},
@@ -3788,7 +3793,7 @@ const ELE_GROUPS = {
         ],
         bibs:['sterns2015','adrogue2000'] },
       { id:'k_ph', name:'K⁺ corregido por pH', pop:'Desplazamiento transcelular',
-        formula:'ΔK⁺ ≈ −factor × (pH actual − 7.40)\n\nFactor según tipo de acidosis:\n  Metabólica inorgánica (hiperclorémica): 0.6\n  Metabólica orgánica (láctica, cetoacidosis): 0.3\n  Respiratoria: 0.1\n\nRegla: por cada 0.1 de descenso de pH,\nel K⁺ plasmático sube ≈ factor × 0.1 mEq/L\nLa corrección indica el K⁺ esperado sin el\nefecto del pH (K⁺ "verdadero" intracelular).',
+        formula:'ΔK⁺ ≈ −factor × (pH actual − 7.40) / 0.1\n\nFactor según tipo de acidosis:\n  Metabólica inorgánica (hiperclorémica): 0.6\n  Metabólica orgánica (láctica, cetoacidosis): 0.3\n  Respiratoria: 0.1\n\nRegla: por cada 0.1 de descenso de pH,\nel K⁺ plasmático sube ≈ factor × 0.1 mEq/L\nLa corrección indica el K⁺ esperado sin el\nefecto del pH (K⁺ "verdadero" intracelular).',
         inputs:[
           {id:'k_med',   label:'K⁺ medido',      unit:'mEq/L', ph:'ej: 5.8'},
           {id:'ph_k',    label:'pH actual',       unit:'',      ph:'ej: 7.25'},
@@ -3807,7 +3812,7 @@ const ELE_GROUPS = {
   osmu: {
     eqs: [
       { id:'osm_u_calc', name:'Osmolaridad urinaria', pop:'Cálculo por fórmula',
-        formula:'Osm U = 2×(Na U + K U) + Urea U/2.8 + Glucosa U/18\nNa U y K U en mEq/L · Urea U y Glucosa U en mg/dL\n\nInterpretación:\n  < 100 mOsm/kg: muy diluida (polidipsia, DI)\n  100–300:        diluida\n  300–600:        intermedia\n  > 600:          concentrada (respuesta ADH adecuada)\n  > 800:          máxima concentración\n\nNota: la Osm U medida por osmómetro es el estándar;\nesta fórmula es útil cuando no se dispone de osmómetro.',
+        formula:'Osm U = 2×(Na U + K U) + Urea U/6 + Glucosa U/18\nNa U y K U en mEq/L · Urea U y Glucosa U en mg/dL\n\nInterpretación:\n  < 100 mOsm/kg: muy diluida (polidipsia, DI)\n  100–300:        diluida\n  300–600:        intermedia\n  > 600:          concentrada (respuesta ADH adecuada)\n  > 800:          máxima concentración\n\nNota: la Osm U medida por osmómetro es el estándar;\nesta fórmula es útil cuando no se dispone de osmómetro.',
         inputs:[
           {id:'nau_oc',   label:'Na⁺ urinario',     unit:'mEq/L',   ph:'ej: 60'},
           {id:'ku_oc',    label:'K⁺ urinario',      unit:'mEq/L',   ph:'ej: 30'},
@@ -3817,7 +3822,7 @@ const ELE_GROUPS = {
         ],
         bibs:['rose_post'] },
       { id:'brecha_osm_u', name:'Brecha osmolar urinaria', pop:'NH₄⁺ — diagnóstico de acidosis',
-        formula:'BOU = Osm U medida − [2×(Na U + K U) + Urea U/2.8 + Glucosa U/18]\n\nInterpretación en acidosis metabólica hiperclorémica\n(AG plasmático normal):\n\n  BOU negativa (< −20):\n    → NH₄⁺ urinario ELEVADO\n    → Pérdidas extrarrenales de HCO₃⁻ (diarrea)\n    → Riñón responde correctamente\n\n  BOU positiva (≥ 0):\n    → NH₄⁺ urinario BAJO\n    → Acidosis tubular renal distal (ATR tipo I)\n\n⚠ Válida SOLO en acidosis hiperclorémica (AG normal).\nNo usar en cetoacidosis, acidosis láctica ni IRC avanzada.',
+        formula:'BOU = Osm U medida − [2×(Na U + K U) + Urea U/6 + Glucosa U/18]\nNH₄⁺ urinario estimado ≈ BOU / 2   (Urea U total en mg/dL)\n\nInterpretación en acidosis metabólica hiperclorémica (AG normal):\n  BOU > 100 mOsm/kg → NH₄⁺ urinario adecuado (≈ > 50 mEq/L)\n      → respuesta renal conservada: pérdidas extrarrenales de HCO₃⁻ (diarrea)\n  BOU 40–100       → zona intermedia\n  BOU < 40 mOsm/kg → NH₄⁺ urinario bajo\n      → defecto de acidificación renal (ATR distal, ATR tipo 4, ERC)\n\nA diferencia del anión gap urinario, la BOU sigue siendo útil con\ncetonuria o aniones no medidos en orina (Kim 1996).\nCortes orientativos: interpretar con pH urinario y contexto clínico.',
         inputs:[
           {id:'osm_u_b', label:'Osm U medida',    unit:'mOsm/kg', ph:'ej: 300'},
           {id:'nau_b',   label:'Na⁺ urinario',    unit:'mEq/L',   ph:'ej: 40'},
@@ -3825,7 +3830,15 @@ const ELE_GROUPS = {
           {id:'ureau_b', label:'Urea urinaria',    unit:'mg/dL',   ph:'ej: 600'},
           {id:'glcu_b',  label:'Glucosa urinaria', unit:'mg/dL',   ph:'ej: 0'}
         ],
-        bibs:['battle1988','rose_post'] }
+        bibs:['kim1996','battle1988','rose_post'] },
+      { id:'uag', name:'Anión gap urinario', pop:'NH₄⁺ — AM hiperclorémica',
+        formula:'AGU = Na⁺ U + K⁺ U − Cl⁻ U   (mEq/L, orina aislada)\n\nInterpretación en acidosis metabólica hiperclorémica (AG normal):\n  AGU negativo → NH₄⁺ urinario elevado (el NH₄⁺ acompaña al Cl⁻)\n      → pérdidas extrarrenales de HCO₃⁻ (diarrea)\n  AGU positivo → NH₄⁺ urinario bajo\n      → ATR distal (tipo 1) o tipo 4\n\n⚠ No interpretable si: Na U < 20 mEq/L (depleción de volumen),\n  cetonuria, hipurato (tolueno), β-lactámicos, poliuria marcada.\n  En esos casos usar la brecha osmolar urinaria.',
+        inputs:[
+          {id:'na_uag', label:'Na⁺ urinario',  unit:'mEq/L', ph:'ej: 40'},
+          {id:'k_uag',  label:'K⁺ urinario',   unit:'mEq/L', ph:'ej: 30'},
+          {id:'cl_uag', label:'Cl⁻ urinario',  unit:'mEq/L', ph:'ej: 90'}
+        ],
+        bibs:['battle1988','kim1996','rose_post'] }
     ]
   }
 };
@@ -3944,12 +3957,12 @@ function eleCalc() {
     const na=fv('na_oe'),glc=fv('glc_oe'),bun=fv('bun_oe'),etoh=fv('etoh_oe'),osmMed=fv('osm_med_oe');
     if (isNaN(na)||isNaN(glc)||isNaN(bun)||isNaN(etoh)) { alert('Ingresá Na⁺, glucosa, BUN y etanol.'); return; }
     const osmSinEtoh=osmStd(na,glc,bun);
-    const contrEtoh=etoh/4.6;
+    const contrEtoh=etoh/3.7;   // Purssell 2001: factor empírico 3.7 (teórico 4.6)
     const osm=osmSinEtoh+contrEtoh;
     const cls=osm<=295?'success':osm<=320?'warn':'danger';
     const bg=osm<=295?'#EAF3DE':osm<=320?'#FAEEDA':'#FCEBEB';
     const clr=osm<=295?'#27500A':osm<=320?'#633806':'#791F1F';
-    const dev='Osm (con EtOH) = 2×Na + Gluc/18 + BUN/2.8 + EtOH/4.6\n= '+(2*na)+' + '+(glc/18).toFixed(2)+' + '+(bun/2.8).toFixed(2)+' + '+contrEtoh.toFixed(2)+'\n= '+osm.toFixed(1)+' mOsm/kg\n\nSin etanol: '+osmSinEtoh.toFixed(1)+' mOsm/kg\nAporte EtOH: '+contrEtoh.toFixed(1)+' mOsm/kg';
+    const dev='Osm (con EtOH) = 2×Na + Gluc/18 + BUN/2.8 + EtOH/3.7\n= '+(2*na)+' + '+(glc/18).toFixed(2)+' + '+(bun/2.8).toFixed(2)+' + '+contrEtoh.toFixed(2)+'\n= '+osm.toFixed(1)+' mOsm/kg\n\nSin etanol: '+osmSinEtoh.toFixed(1)+' mOsm/kg\nAporte EtOH: '+contrEtoh.toFixed(1)+' mOsm/kg';
     const interp='Osmolaridad con etanol: '+osm.toFixed(1)+' mOsm/kg. Contribución del etanol: '+contrEtoh.toFixed(1)+' mOsm/kg. Sin etanol: '+osmSinEtoh.toFixed(1)+' mOsm/kg.';
     setResult('ele',osm.toFixed(1),'mOsm/kg',dev,cls,'EtOH aporta '+contrEtoh.toFixed(1)+' mOsm/kg',bg,clr,interp);
     if (!isNaN(osmMed)) {
@@ -4035,13 +4048,13 @@ function eleCalc() {
     if (isNaN(k)||isNaN(ph)) { alert('Ingresá K⁺ y pH.'); return; }
     const factores={'Metabólica inorgánica (×0.6)':0.6,'Metabólica orgánica (×0.3)':0.3,'Respiratoria (×0.1)':0.1};
     const factor=factores[tipoAc]||0.6;
-    const deltaK=-factor*(ph-7.40);
+    const deltaK=-factor*(ph-7.40)/0.1;   // factor = mEq/L por cada 0.1 de pH
     const kCorr=k-deltaK;
     const bgM=k<3.5?'#E6F1FB':k<=5.0?'#EAF3DE':'#FCEBEB';
     const clrM=k<3.5?'#0C447C':k<=5.0?'#27500A':'#791F1F';
     const bgC=kCorr<3.5?'#E6F1FB':kCorr<=5.0?'#EAF3DE':'#FCEBEB';
     const clrC=kCorr<3.5?'#0C447C':kCorr<=5.0?'#27500A':'#791F1F';
-    const dev='Factor ('+tipoAc+'): '+factor+'\nΔK = −'+factor+' × ('+ph+' − 7.40) = '+deltaK.toFixed(3)+' mEq/L\n\nK⁺ medido:   '+k+' mEq/L\nK⁺ corregido (al normalizar pH a 7.40): '+kCorr.toFixed(2)+' mEq/L\n\nRef: Adrogué & Madias, Am J Med. 1981';
+    const dev='Factor ('+tipoAc+'): '+factor+'\nΔK = −'+factor+' × ('+ph+' − 7.40) / 0.1 = '+deltaK.toFixed(3)+' mEq/L\n\nK⁺ medido:   '+k+' mEq/L\nK⁺ corregido (al normalizar pH a 7.40): '+kCorr.toFixed(2)+' mEq/L\n\nRef: Adrogué & Madias, Am J Med. 1981';
     const interp='K⁺ medido: '+k+' mEq/L con pH '+ph+'. Desplazamiento estimado: '+deltaK.toFixed(2)+' mEq/L. K⁺ al normalizar pH: '+kCorr.toFixed(2)+' mEq/L. '+(kCorr<3.5?'Al corregir la acidosis el K⁺ puede descender a niveles de hipopotasemia. Considerar reposición profiláctica.':kCorr>5.0?'K⁺ corregido elevado: hiperpotasemia subyacente. Evaluar causa (insuficiencia renal, suprarrenal, redistribución).':'K⁺ corregido dentro del rango normal.')+'\n\n⚠ Cálculo orientativo. La correlación pH/K⁺ tiene variabilidad individual importante. Verificar con medición directa.';
     setResult('ele',k.toFixed(2),'mEq/L → corr. '+kCorr.toFixed(2),dev,'info','Medido: '+k+' · Corregido: '+kCorr.toFixed(2),bgM,clrM,interp);
     document.getElementById('ele-rmulti').innerHTML=
@@ -4073,13 +4086,13 @@ function eleCalc() {
     const nau=fv('nau_oc'),ku=fv('ku_oc'),ureau=fv('ureau_oc'),glcu=fv('glcu_oc'),osmUMed=fv('osm_u_med');
     if (isNaN(nau)||isNaN(ku)||isNaN(ureau)) { alert('Ingresá Na U, K U y Urea U.'); return; }
     const glcuV=isNaN(glcu)?0:glcu;
-    const osmu=2*(nau+ku)+ureau/2.8+glcuV/18;
+    const osmu=2*(nau+ku)+ureau/6+glcuV/18;
     const cls=osmu<100?'danger':osmu<300?'info':osmu<600?'warn':'success';
     const bg=osmu<100?'#FCEBEB':osmu<300?'#E6F1FB':osmu<600?'#FAEEDA':'#EAF3DE';
     const clr=osmu<100?'#791F1F':osmu<300?'#0C447C':osmu<600?'#633806':'#27500A';
     const badge=osmu<100?'Muy diluida (< 100)':osmu<300?'Diluida (100–299)':osmu<600?'Intermedia (300–599)':osmu<800?'Concentrada (600–799)':'Máxima concentración (≥ 800)';
     const interp=osmu<100?'Orina muy diluida. Causas: polidipsia primaria (Osm U < 60 mOsm/kg), diabetes insípida central o nefrogénica. Evaluar con prueba de restricción hídrica y test de desmopresina.':osmu<300?'Orina diluida. Normal con alta ingesta hídrica. Patológico si hay hipernatremia o deshidratación (orina debería concentrarse).':osmu<600?'Orina de concentración intermedia. Capacidad conservada parcialmente.':'Orina concentrada. Respuesta ADH adecuada. En hiponatremia con Osm U > 600 → SIADH probable (Osm U inapropiadamente alta).';
-    const dev='Osm U = 2×(Na U + K U) + Urea U/2.8 + Gluc U/18\n= 2×('+nau+' + '+ku+') + '+ureau+'/2.8 + '+glcuV+'/18\n= '+(2*(nau+ku))+' + '+(ureau/2.8).toFixed(2)+' + '+(glcuV/18).toFixed(2)+'\n= '+osmu.toFixed(0)+' mOsm/kg\n\nContribución:\n  Electrolitos: '+(2*(nau+ku))+' mOsm/kg ('+((2*(nau+ku)/osmu)*100).toFixed(1)+'%)\n  Urea:         '+(ureau/2.8).toFixed(1)+' mOsm/kg ('+((ureau/2.8/osmu)*100).toFixed(1)+'%)\n  Glucosa:      '+(glcuV/18).toFixed(1)+' mOsm/kg';
+    const dev='Osm U = 2×(Na U + K U) + Urea U/6 + Gluc U/18\n= 2×('+nau+' + '+ku+') + '+ureau+'/6 + '+glcuV+'/18\n= '+(2*(nau+ku))+' + '+(ureau/6).toFixed(2)+' + '+(glcuV/18).toFixed(2)+'\n= '+osmu.toFixed(0)+' mOsm/kg\n\nContribución:\n  Electrolitos: '+(2*(nau+ku))+' mOsm/kg ('+((2*(nau+ku)/osmu)*100).toFixed(1)+'%)\n  Urea:         '+(ureau/6).toFixed(1)+' mOsm/kg ('+((ureau/6/osmu)*100).toFixed(1)+'%)\n  Glucosa:      '+(glcuV/18).toFixed(1)+' mOsm/kg';
     setResult('ele',osmu.toFixed(0),'mOsm/kg',dev,cls,badge,bg,clr,interp);
     if (!isNaN(osmUMed)) {
       const diff=Math.abs(osmUMed-osmu);
@@ -4096,25 +4109,44 @@ function eleCalc() {
     const osmUMed=fv('osm_u_b'),nau=fv('nau_b'),ku=fv('ku_b'),ureau=fv('ureau_b'),glcu=fv('glcu_b');
     if (isNaN(osmUMed)||isNaN(nau)||isNaN(ku)||isNaN(ureau)) { alert('Ingresá Osm U medida, Na U, K U y Urea U.'); return; }
     const glcuV=isNaN(glcu)?0:glcu;
-    const osmUCalc=2*(nau+ku)+ureau/2.8+glcuV/18;
+    const osmUCalc=2*(nau+ku)+ureau/6+glcuV/18;
     const bou=osmUMed-osmUCalc;
-    const nh4est=Math.abs(bou)/2;
-    const cls=bou<-20?'success':bou>=0?'danger':'warn';
-    const bg=bou<-20?'#EAF3DE':bou>=0?'#FCEBEB':'#FAEEDA';
-    const clr=bou<-20?'#27500A':bou>=0?'#791F1F':'#633806';
-    const badge=bou<-20?'BOU negativa → NH₄⁺ elevado (extrarrenal)':bou>=0?'BOU positiva → NH₄⁺ bajo (ATR distal)':'BOU zona gris (−20 a 0)';
-    const interp=bou<-20?'BOU = '+bou.toFixed(1)+' mOsm/kg: negativa. NH₄⁺ urinario elevado → el riñón excreta ácido correctamente. La acidosis hiperclorémica tiene origen extrarrenal. Causa más frecuente: diarrea con pérdida de HCO₃⁻.':bou>=0?'BOU = '+bou.toFixed(1)+' mOsm/kg: positiva. NH₄⁺ urinario bajo → el riñón no puede excretar NH₄⁺ adecuadamente. Compatible con acidosis tubular renal distal (ATR tipo I). Confirmar con pH urinario (típicamente > 5.5 en ATR tipo I a pesar de acidemia).':'BOU = '+bou.toFixed(1)+' mOsm/kg: zona gris. No es posible distinguir origen renal de extrarrenal. Correlacionar con pH urinario, K⁺ sérico y contexto clínico.';
-    const dev='BOU = Osm U medida − Osm U calculada\n= '+osmUMed+' − [2×('+nau+'+'+ku+') + '+ureau+'/2.8 + '+glcuV+'/18]\n= '+osmUMed+' − '+osmUCalc.toFixed(1)+'\n= '+bou.toFixed(1)+' mOsm/kg\n\nNH₄⁺ estimado ≈ |BOU| / 2 = '+nh4est.toFixed(1)+' mEq/L\n\nRef: Battle et al., NEJM 1988';
-    wb.textContent='⚠ La BOU es válida SOLO en acidosis metabólica hiperclorémica (AG normal). No aplicar en cetoacidosis, acidosis láctica, IRC avanzada o con glucosuria significativa.';
+    const nh4est=Math.max(bou,0)/2;
+    const alto=bou>100, bajo=bou<40;
+    const cls=alto?'success':bajo?'danger':'warn';
+    const bg=alto?'#EAF3DE':bajo?'#FCEBEB':'#FAEEDA';
+    const clr=alto?'#27500A':bajo?'#791F1F':'#633806';
+    const badge=alto?'BOU > 100 → NH₄⁺ adecuado (extrarrenal)':bajo?'BOU < 40 → NH₄⁺ bajo (defecto renal)':'BOU 40–100 → zona intermedia';
+    const interp=alto
+      ? 'BOU = '+bou.toFixed(1)+' mOsm/kg (NH₄⁺ estimado ≈ '+nh4est.toFixed(0)+' mEq/L): excreción de NH₄⁺ conservada. El riñón responde a la acidosis; orienta a pérdida extrarrenal de HCO₃⁻ (diarrea, fístulas, derivaciones urinarias intestinales).'
+      : bajo
+      ? 'BOU = '+bou.toFixed(1)+' mOsm/kg (NH₄⁺ estimado ≈ '+nh4est.toFixed(0)+' mEq/L): excreción de NH₄⁺ inapropiadamente baja para una acidosis. Orienta a defecto de acidificación renal: ATR distal (tipo 1), ATR tipo 4 (hipoaldosteronismo, con K⁺ alto) o ERC. Correlacionar con pH urinario y K⁺ sérico.'
+      : 'BOU = '+bou.toFixed(1)+' mOsm/kg: zona intermedia. Interpretar con pH urinario, anión gap urinario, K⁺ sérico y clínica.';
+    const dev='BOU = Osm U medida − Osm U calculada\n= '+osmUMed+' − [2×('+nau+'+'+ku+') + '+ureau+'/6 + '+glcuV+'/18]\n= '+osmUMed+' − '+osmUCalc.toFixed(1)+'\n= '+bou.toFixed(1)+' mOsm/kg\n\nNH₄⁺ estimado ≈ BOU / 2 = '+nh4est.toFixed(1)+' mEq/L\n\nRef: Kim GH et al., Am J Kidney Dis 1996';
+    wb.textContent='⚠ Interpretable en acidosis metabólica hiperclorémica (AG normal). Con glucosuria ingresar la glucosa urinaria; manitol u otros osmoles no medidos invalidan el cálculo.';
     wb.style.display='block';
     setResult('ele',bou.toFixed(1),'mOsm/kg (BOU)',dev,cls,badge,bg,clr,interp);
     document.getElementById('ele-rtable').innerHTML=
-      '<p style="font-size:12px;font-weight:500;color:var(--text2);margin:10px 0 5px">Interpretación BOU — acidosis hiperclorémica (Battle et al., NEJM 1988)</p>'+
+      '<p style="font-size:12px;font-weight:500;color:var(--text2);margin:10px 0 5px">Interpretación BOU — acidosis hiperclorémica</p>'+
       '<table class="ref-table"><thead><tr><th>BOU</th><th>NH₄⁺ urinario</th><th>Orientación diagnóstica</th></tr></thead><tbody>'+
-      '<tr'+(bou>=0?' class="hl"':'')+'><td style="'+(bou>=0?'background:#FCEBEB;color:#791F1F;font-weight:500':'')+'">Positiva (≥ 0)</td><td>Bajo</td><td>ATR distal (tipo I)</td></tr>'+
-      '<tr'+(bou>=-20&&bou<0?' class="hl"':'')+'><td style="'+(bou>=-20&&bou<0?'background:#FAEEDA;color:#633806;font-weight:500':'')+'">−20 a 0</td><td>Intermedio</td><td>Zona gris — correlacionar</td></tr>'+
-      '<tr'+(bou<-20?' class="hl"':'')+'><td style="'+(bou<-20?'background:#EAF3DE;color:#27500A;font-weight:500':'')+'">Negativa (< −20)</td><td>Elevado</td><td>Pérdidas extrarrenales (diarrea)</td></tr>'+
+      '<tr'+(alto?' class="hl"':'')+'><td style="'+(alto?'background:#EAF3DE;color:#27500A;font-weight:500':'')+'">&gt; 100</td><td>Adecuado</td><td>Pérdidas extrarrenales (diarrea)</td></tr>'+
+      '<tr'+(!alto&&!bajo?' class="hl"':'')+'><td style="'+(!alto&&!bajo?'background:#FAEEDA;color:#633806;font-weight:500':'')+'">40–100</td><td>Intermedio</td><td>Zona gris — correlacionar</td></tr>'+
+      '<tr'+(bajo?' class="hl"':'')+'><td style="'+(bajo?'background:#FCEBEB;color:#791F1F;font-weight:500':'')+'">&lt; 40</td><td>Bajo</td><td>ATR distal / tipo 4 / ERC</td></tr>'+
       '</tbody></table>';
+
+  } else if (e.id === 'uag') {
+    const na=fv('na_uag'),k=fv('k_uag'),cl=fv('cl_uag');
+    if (isNaN(na)||isNaN(k)||isNaN(cl)) { alert('Ingresá Na⁺, K⁺ y Cl⁻ urinarios.'); return; }
+    const agu=na+k-cl;
+    const neg=agu<0;
+    const cls=neg?'success':'danger', bg=neg?'#EAF3DE':'#FCEBEB', clr=neg?'#27500A':'#791F1F';
+    const badge=neg?'AGU negativo → NH₄⁺ elevado (extrarrenal)':'AGU positivo → NH₄⁺ bajo (defecto renal)';
+    const interp=neg
+      ? 'AGU = '+agu.toFixed(0)+' mEq/L (negativo): el Cl⁻ urinario supera a Na⁺ + K⁺ porque se excreta acompañado de NH₄⁺. Excreción de NH₄⁺ conservada → orienta a pérdida gastrointestinal de HCO₃⁻ (diarrea).'
+      : 'AGU = '+agu.toFixed(0)+' mEq/L (positivo o cero): excreción de NH₄⁺ baja para una acidosis. Orienta a ATR distal (tipo 1) o ATR tipo 4. Verificar ausencia de cetonuria, depleción de volumen (Na U < 20) u otros aniones urinarios no medidos, que dan falsos positivos.';
+    if (na<20) { wb.textContent='Na⁺ urinario < 20 mEq/L: la depleción de volumen limita la excreción de NH₄⁺ y el AGU no es fiable. Usar la brecha osmolar urinaria.'; wb.style.display='block'; }
+    const dev='AGU = Na⁺ U + K⁺ U − Cl⁻ U\n= '+na+' + '+k+' − '+cl+'\n= '+agu.toFixed(0)+' mEq/L\n\nRef: Batlle DC et al., NEJM 1988';
+    setResult('ele',agu.toFixed(0),'mEq/L (AGU)',dev,cls,badge,bg,clr,interp);
   }
 }
 
@@ -4142,7 +4174,7 @@ const CAL_GROUPS = {
         ],
         bibs:['payne1973','bringhurst','tietz_min'] },
       { id:'ca_ionico', name:'Ca iónico estimado', pop:'Siggaard-Andersen — de Ca total y pH',
-        formula:'Ca²⁺ iónico ≈ Ca total × 0.46 + 0.13 × pH_factor\n\nAproximación simplificada (Siggaard-Andersen 1980):\n  Fracción iónica ≈ 0.46 del Ca total a pH 7.40\n  Corrección por pH: por cada 0.1 de ↑ pH → Ca²⁺ ↓ ~0.05 mg/dL\n  (el pH alcalino aumenta la unión a albúmina)\n\nFórmula aplicada:\n  Ca²⁺ = Ca total × [0.46 − 0.015 × (pH − 7.40)]\n\nUnidades: Ca total en mg/dL → Ca²⁺ en mg/dL y mmol/L\n\n⚠ ESTIMACIÓN ORIENTATIVA\nLa medición directa por electrodo ión-selectivo (ISE)\nes el método de referencia para Ca iónico.',
+        formula:'Aproximación simplificada (Siggaard-Andersen 1980):\n  Fracción iónica ≈ 0.46 del Ca total a pH 7.40\n  Corrección por pH: por cada 0.1 de ↑ pH → Ca²⁺ ↓ ~5 % (~0.05 mmol/L)\n  (el pH alcalino aumenta la unión a albúmina)\n\nFórmula aplicada:\n  Ca²⁺ = Ca total × 0.46 / [1 − 0.53 × (7.40 − pH)]\n\nUnidades: Ca total en mg/dL → Ca²⁺ en mg/dL y mmol/L\n\n⚠ ESTIMACIÓN ORIENTATIVA\nLa medición directa por electrodo ión-selectivo (ISE)\nes el método de referencia para Ca iónico.',
         inputs:[
           {id:'ca_t2', label:'Calcio total',    unit:'mg/dL', ph:'ej: 9.2'},
           {id:'ph_ca', label:'pH arterial',     unit:'',      ph:'ej: 7.40'}
@@ -4265,7 +4297,7 @@ function calCalc() {
     const cat = fv('ca_t2'), ph = fv('ph_ca');
     if (isNaN(cat)||isNaN(ph)) { alert('Ingresá calcio total y pH.'); return; }
     if (ph < 7.0 || ph > 7.8) { wb.textContent = 'pH fuera del rango fisiológico (7.0–7.8). Verificar el valor.'; wb.style.display='block'; }
-    const frac_ionica = 0.46 - 0.015 * (ph - 7.40);
+    const frac_ionica = 0.46 / (1 - 0.53 * (7.40 - ph));   // Ca²⁺(7.40) = Ca²⁺(pH) × [1 − 0.53 × (7.40 − pH)]
     const ca_ion_mgdl = cat * frac_ionica;
     const ca_ion_mmol = ca_ion_mgdl / 4.008;  // Ca MW=40.08, dividir por 4 para mg/dL→mmol/L
     const ca_ion_norm_low = 4.6, ca_ion_norm_high = 5.3;  // mg/dL
@@ -4273,7 +4305,7 @@ function calCalc() {
     const bg_ion  = ca_ion_mgdl < ca_ion_norm_low ? '#E6F1FB' : ca_ion_mgdl <= ca_ion_norm_high ? '#EAF3DE' : ca_ion_mgdl <= 6.5 ? '#FAEEDA' : '#FCEBEB';
     const clr_ion = ca_ion_mgdl < ca_ion_norm_low ? '#0C447C' : ca_ion_mgdl <= ca_ion_norm_high ? '#27500A' : ca_ion_mgdl <= 6.5 ? '#633806' : '#791F1F';
     const label_ion = ca_ion_mgdl < ca_ion_norm_low ? 'Hipocalcemia iónica estimada' : ca_ion_mgdl <= ca_ion_norm_high ? 'Normal (estimado)' : 'Hipercalcemia iónica estimada';
-    const dev = 'Fórmula (Siggaard-Andersen 1980):\nCa²⁺ = Ca total × [0.46 − 0.015 × (pH − 7.40)]\n= ' + cat + ' × [0.46 − 0.015 × (' + ph + ' − 7.40)]\n= ' + cat + ' × [0.46 − 0.015 × ' + (ph-7.40).toFixed(3) + ']\n= ' + cat + ' × ' + frac_ionica.toFixed(4) + '\n= ' + ca_ion_mgdl.toFixed(2) + ' mg/dL\n= ' + ca_ion_mmol.toFixed(3) + ' mmol/L\n\nFracción iónica estimada: ' + (frac_ionica*100).toFixed(1) + '%\n(Referencia a pH 7.40: 46% del Ca total)';
+    const dev = 'Fórmula (Siggaard-Andersen 1980):\nCa²⁺ = Ca total × 0.46 / [1 − 0.53 × (7.40 − pH)]\n= ' + cat + ' × 0.46 / [1 − 0.53 × (7.40 − ' + ph + ')]\n= ' + cat + ' × 0.46 / ' + (1-0.53*(7.40-ph)).toFixed(4) + '\n= ' + cat + ' × ' + frac_ionica.toFixed(4) + '\n= ' + ca_ion_mgdl.toFixed(2) + ' mg/dL\n= ' + ca_ion_mmol.toFixed(3) + ' mmol/L\n\nFracción iónica estimada: ' + (frac_ionica*100).toFixed(1) + '%\n(Referencia a pH 7.40: 46% del Ca total)';
     const interp = 'Ca iónico estimado: ' + ca_ion_mgdl.toFixed(2) + ' mg/dL (' + ca_ion_mmol.toFixed(3) + ' mmol/L). ' +
       (ca_ion_mgdl < ca_ion_norm_low ? 'Por debajo del rango normal (4.6–5.3 mg/dL / 1.15–1.33 mmol/L). Compatible con hipocalcemia iónica. Síntomas: parestesias peribucales y en extremidades, espasmos musculares, tetania, signos de Chvostek y Trousseau. Evaluar PTH, vitamina D y Mg sérico.' :
       ca_ion_mgdl <= ca_ion_norm_high ? 'Dentro del rango normal estimado (4.6–5.3 mg/dL / 1.15–1.33 mmol/L).' :
@@ -4287,14 +4319,14 @@ function calCalc() {
     const cat = fv('ca_t3'), alb = fv('alb_cp2'), ph = fv('ph_cp');
     if (isNaN(cat)||isNaN(alb)||isNaN(ph)) { alert('Ingresá calcio total, albúmina y pH.'); return; }
     const ca_corr = cat + 0.8 * (4.0 - alb);
-    const frac_ionica = 0.46 - 0.015 * (ph - 7.40);
+    const frac_ionica = 0.46 / (1 - 0.53 * (7.40 - ph));   // Ca²⁺(7.40) = Ca²⁺(pH) × [1 − 0.53 × (7.40 − pH)]
     const ca_ion = cat * frac_ionica;
     const ca_ion_mmol = ca_ion / 4.008;
     const c_corr = caClass(ca_corr);
     const c_ion = ca_ion < 4.6 ? {cls:'info',bg:'#E6F1FB',clr:'#0C447C',label:'Ca²⁺ bajo'} :
                   ca_ion <= 5.3 ? {cls:'success',bg:'#EAF3DE',clr:'#27500A',label:'Ca²⁺ normal'} :
                                   {cls:'danger',bg:'#FCEBEB',clr:'#791F1F',label:'Ca²⁺ elevado'};
-    const dev = 'PERFIL COMPLETO DE CALCIO\n\nCa medido:    ' + cat.toFixed(2) + ' mg/dL\nAlbúmina:     ' + alb + ' g/dL\npH:           ' + ph + '\n\nCa corregido (Payne 1973):\n  = ' + cat + ' + 0.8 × (4.0 − ' + alb + ') = ' + ca_corr.toFixed(2) + ' mg/dL\n\nCa iónico estimado (Siggaard-Andersen 1980):\n  Fracción iónica = 0.46 − 0.015 × (' + ph + ' − 7.40) = ' + frac_ionica.toFixed(4) + '\n  Ca²⁺ = ' + cat + ' × ' + frac_ionica.toFixed(4) + ' = ' + ca_ion.toFixed(2) + ' mg/dL = ' + ca_ion_mmol.toFixed(3) + ' mmol/L';
+    const dev = 'PERFIL COMPLETO DE CALCIO\n\nCa medido:    ' + cat.toFixed(2) + ' mg/dL\nAlbúmina:     ' + alb + ' g/dL\npH:           ' + ph + '\n\nCa corregido (Payne 1973):\n  = ' + cat + ' + 0.8 × (4.0 − ' + alb + ') = ' + ca_corr.toFixed(2) + ' mg/dL\n\nCa iónico estimado (Siggaard-Andersen 1980):\n  Fracción iónica = 0.46 / [1 − 0.53 × (7.40 − ' + ph + ')] = ' + frac_ionica.toFixed(4) + '\n  Ca²⁺ = ' + cat + ' × ' + frac_ionica.toFixed(4) + ' = ' + ca_ion.toFixed(2) + ' mg/dL = ' + ca_ion_mmol.toFixed(3) + ' mmol/L';
     const interp = caInterpCorr(ca_corr, cat, alb) + '\n\nCa iónico estimado: ' + ca_ion.toFixed(2) + ' mg/dL (' + ca_ion_mmol.toFixed(3) + ' mmol/L). ' + c_ion.label + '.';
     setResult('cal', ca_corr.toFixed(2), 'mg/dL (Ca corregido)', dev, c_corr.cls, c_corr.label, c_corr.bg, c_corr.clr, interp);
     document.getElementById('cal-rmulti').innerHTML =
@@ -4854,6 +4886,7 @@ function sepCalc() {
 Object.assign(BIBS, {
   who1983:    { authors:'World Health Organization Expert Committee on Biological Standardization.', title:'Requirements for thromboplastins and plasma used to control oral anticoagulant therapy.', journal:'WHO Technical Report Series. 1983;687:81–105.', doi:'', url:'https://www.who.int/publications/i/item/WHO_TRS_687' },
   kershaw2013:{ authors:'Kershaw G, Orellana D.', title:'Mixing tests: diagnostic aides in the investigation of prolonged prothrombin times and activated partial thromboplastin times.', journal:'Seminars in Thrombosis and Hemostasis. 2013;39(3):283–290.', doi:'10.1055/s-0033-1334664', url:'https://doi.org/10.1055/s-0033-1334664' },
+  rosner1987: { authors:'Rosner E, Pauzner R, Lusky A, Modan M, Many A.', title:'Detection and quantitative evaluation of lupus circulating anticoagulant activity.', journal:'Thrombosis and Haemostasis. 1987;57(2):144–147.', doi:'', url:'https://pubmed.ncbi.nlm.nih.gov/?term=Rosner+1987+lupus+circulating+anticoagulant+Thromb+Haemost' },
   taylor2001: { authors:'Taylor FB Jr, Toh CH, Hoots WK, Wada H, Levi M; Scientific Subcommittee on Disseminated Intravascular Coagulation (DIC) of the International Society on Thrombosis and Haemostasis.', title:'Towards definition, clinical and laboratory criteria, and a scoring system for disseminated intravascular coagulation.', journal:'Thrombosis and Haemostasis. 2001;86(5):1327–1330.', doi:'10.1055/s-0037-1616068', url:'https://doi.org/10.1055/s-0037-1616068' },
   lippi2020:  { authors:'Lippi G, Favaloro EJ.', title:'D-dimer is not a reliable screening test for venous thromboembolism and is not a validated marker for COVID-19: a reappraisal.', journal:'Annals of Translational Medicine. 2020;8(9):596.', doi:'10.21037/atm-20-2281', url:'https://doi.org/10.21037/atm-20-2281' }
 });
@@ -4877,13 +4910,14 @@ const COA_GROUPS = {
         ],
         bibs:['who1983','kershaw2013'] },
       { id:'mezcla_kptt', name:'Prueba de mezcla KPTT', pop:'Diferenciación déficit / inhibidor',
-        formula:'KPTT mezcla = (KPTT paciente + KPTT normal) / 2\n\nInterpretación (a tiempo 0 y tras incubación 1–2 h a 37°C):\n\n  Corrección > 50% (KPTT mezcla dentro del rango normal):\n    → Déficit factorial (VIII, IX, XI, XII, HMWK, PK)\n    → La mezcla aporta el factor deficiente\n\n  No corrección (KPTT mezcla fuera del rango normal):\n    → Inhibidor presente\n    → Inhibidor específico: anti-VIII (hemofilia adquirida)\n    → Inhibidor inespecífico: anticoagulante lúpico (ACL)\n\nNota: el ACL puede prolongar KPTT in vitro pero\ncausa trombosis in vivo (paradoja del ACL).\nConfirmar con test de Russel y anti-beta2GPI.',
+        formula:'Medir el KPTT de la mezcla 1:1 (plasma del paciente + pool de plasma normal)\na tiempo 0 y tras incubación 1–2 h a 37 °C.\n\nÍndice de Rosner (ICA) = (KPTT mezcla − KPTT normal) / KPTT paciente × 100\n  ≤ 11: corrige → déficit factorial probable\n  11–15: indeterminado\n  ≥ 15: no corrige → inhibidor (anticoagulante lúpico, anti-VIII)\n\nCriterio alternativo: KPTT mezcla dentro del rango de referencia → corrige.\nLos cortes de Rosner dependen del reactivo: validar localmente.\n\nNota: el AL prolonga el KPTT in vitro pero causa trombosis in vivo.\nConfirmar con dRVVT y anticuerpos antifosfolípidos (anti-β2GPI, anticardiolipina).',
         inputs:[
           {id:'kptt_pac',  label:'KPTT paciente',        unit:'seg', ph:'ej: 75'},
           {id:'kptt_norm', label:'KPTT normal (control)', unit:'seg', ph:'ej: 32'},
+          {id:'kptt_mix',  label:'KPTT mezcla 1:1 (medido)', unit:'seg', ph:'ej: 36'},
           {id:'kptt_ref_hi',label:'Límite superior KPTT', unit:'seg', ph:'ej: 38'}
         ],
-        bibs:['kershaw2013'] }
+        bibs:['kershaw2013','rosner1987'] }
     ]
   },
   cid: {
@@ -4996,21 +5030,25 @@ function coaCalc() {
     setResult('coa', ratio.toFixed(2), '(Ratio TP)', dev, cls, badge, bg, clr, interp);
 
   } else if (e.id === 'mezcla_kptt') {
-    const kPac=fv('kptt_pac'), kNorm=fv('kptt_norm'), kRefHi=fv('kptt_ref_hi');
-    if (isNaN(kPac)||isNaN(kNorm)||isNaN(kRefHi)) { alert('Ingresá todos los valores.'); return; }
-    const mezcla = (kPac + kNorm) / 2;
-    const corrige = mezcla <= kRefHi;
-    const denomMezcla = kPac - kNorm;
-    const pctCorr = denomMezcla !== 0 ? ((kPac - mezcla) / denomMezcla) * 100 : 100;
-    const cls   = corrige ? 'info' : 'danger';
-    const bg    = corrige ? '#E6F1FB' : '#FCEBEB';
-    const clr   = corrige ? '#0C447C' : '#791F1F';
-    const badge = corrige ? 'Corrige → Déficit factorial probable' : 'No corrige → Inhibidor probable';
-    const interp = corrige
-      ? 'KPTT mezcla = '+mezcla.toFixed(1)+' seg (dentro del rango normal ≤ '+kRefHi+' seg). Corrección del '+pctCorr.toFixed(0)+'%. Compatible con DÉFICIT FACTORIAL. La mezcla 1:1 aporta el factor deficiente en cantidad suficiente. Causas más frecuentes: déficit de factor VIII, IX, XI, XII, HMWK o precalicreína. Continuar con dosificación de factores específicos. Evaluar también en incubación 1–2 h a 37°C para detectar inhibidores dependientes de tiempo (anti-VIII adquirido puede no verse a tiempo 0).'
-      : 'KPTT mezcla = '+mezcla.toFixed(1)+' seg (fuera del rango normal ≤ '+kRefHi+' seg). No corrección. Compatible con INHIBIDOR. Dos tipos principales:\n· Inhibidor específico: anticuerpo anti-factor (más frecuente anti-VIII en hemofilia adquirida). Requiere título de Bethesda.\n· Inhibidor inespecífico (anticoagulante lúpico — ACL): fosfolípido-dependiente, paradójicamente trombogénico. Confirmar con test de Russel con veneno de víbora diluido (dRVVT) y anticuerpos antifosfolípido.';
-    const dev = 'KPTT mezcla = (KPTT paciente + KPTT normal) / 2\n= ('+kPac+' + '+kNorm+') / 2\n= '+mezcla.toFixed(1)+' seg\n\nLímite superior normal: '+kRefHi+' seg\nKPTT mezcla '+( corrige?'≤':'>' )+' '+kRefHi+' → '+(corrige?'CORRIGE (déficit)':'NO CORRIGE (inhibidor)')+'\nPorcentaje de corrección estimado: '+pctCorr.toFixed(0)+'%\n\nRef: Kershaw G, Orellana D. Semin Thromb Hemost. 2013';
-    setResult('coa', mezcla.toFixed(1), 'seg (KPTT mezcla)', dev, cls, badge, bg, clr, interp);
+    const kPac=fv('kptt_pac'), kNorm=fv('kptt_norm'), kMix=fv('kptt_mix'), kRefHi=fv('kptt_ref_hi');
+    if (isNaN(kPac)||isNaN(kNorm)||isNaN(kMix)||isNaN(kRefHi)) { alert('Ingresá KPTT del paciente, del control normal, de la mezcla 1:1 (medido) y el límite superior.'); return; }
+    if (kPac<=0) { alert('El KPTT del paciente debe ser mayor que 0.'); return; }
+    const rosner = (kMix - kNorm) / kPac * 100;
+    const enRango = kMix <= kRefHi;
+    const estado = rosner <= 11 ? 'corrige' : rosner < 15 ? 'indet' : 'nocorrige';
+    const cls   = estado==='corrige' ? 'info' : estado==='indet' ? 'warn' : 'danger';
+    const bg    = estado==='corrige' ? '#E6F1FB' : estado==='indet' ? '#FAEEDA' : '#FCEBEB';
+    const clr   = estado==='corrige' ? '#0C447C' : estado==='indet' ? '#633806' : '#791F1F';
+    const badge = estado==='corrige' ? 'Corrige → déficit factorial probable' : estado==='indet' ? 'Rosner 11–15 → indeterminado' : 'No corrige → inhibidor probable';
+    const interp = (estado==='corrige'
+      ? 'Índice de Rosner = '+rosner.toFixed(1)+' (≤ 11): la mezcla corrige. Compatible con DÉFICIT FACTORIAL (VIII, IX, XI, XII, precalicreína, HMWK). Continuar con dosaje de factores. Repetir tras incubación 1–2 h a 37 °C: una prolongación posterior sugiere inhibidor tiempo-dependiente (anti-VIII adquirido).'
+      : estado==='indet'
+      ? 'Índice de Rosner = '+rosner.toFixed(1)+' (11–15): zona indeterminada. Repetir la mezcla, verificar el pool normal y evaluar con pruebas específicas (dRVVT, dosaje de factores).'
+      : 'Índice de Rosner = '+rosner.toFixed(1)+' (≥ 15): la mezcla no corrige. Compatible con INHIBIDOR: inespecífico (anticoagulante lúpico; confirmar con dRVVT/KPTT-LA y fosfolípidos) o específico (anti-VIII en hemofilia adquirida; título Bethesda). También heparina en la muestra: descartar con tiempo de trombina.')
+      + '\n\nCriterio por rango: KPTT mezcla '+kMix+' seg '+(enRango?'≤':'>')+' '+kRefHi+' seg → '+(enRango?'dentro del rango':'fuera del rango')+'.';
+    const dev = 'Índice de Rosner = (KPTT mezcla − KPTT normal) / KPTT paciente × 100\n= ('+kMix+' − '+kNorm+') / '+kPac+' × 100\n= '+rosner.toFixed(1)+'\n\nCortes: ≤ 11 corrige · 11–15 indeterminado · ≥ 15 no corrige\nKPTT mezcla vs límite superior ('+kRefHi+' seg): '+(enRango?'en rango':'fuera de rango');
+    if (enRango !== (estado==='corrige')) { wb.textContent='Discordancia entre el índice de Rosner y el criterio por rango de referencia. Interpretar con cautela y repetir.'; wb.style.display='block'; }
+    setResult('coa', rosner.toFixed(1), '(índice de Rosner)', dev, cls, badge, bg, clr, interp);
 
   } else if (e.id === 'score_cid') {
     const plt=fv('plt_cid'), fib=fv('fib_cid');
